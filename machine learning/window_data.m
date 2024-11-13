@@ -1,6 +1,10 @@
 function [windows, winStim, winRep] = window_data(emg, stimulus, repetition, winsize, wininc)
     % Written by Noah Marosok 
     % 
+    % based on work done by:
+    % Chan ADC, Green GC, "Myoelectric control development toolbox", 30th Conference of the Canadian Medical & Biological Engineering Society, Toronto, Canada, M0100, 2007.
+    % http://www.sce.carleton.ca/faculty/chan/matlab/myoelectric%20control%20development%20toolbox.pdf
+    %
     % This function only performs windowing on the input signals 
     % It validates each window based on unique stimulus and repetition vals
     %
