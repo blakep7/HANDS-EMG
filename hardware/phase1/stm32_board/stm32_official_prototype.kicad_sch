@@ -10426,16 +10426,16 @@
 		(uuid "8a5197a6-bcf4-491b-94c7-96ba57b45959")
 	)
 	(junction
-		(at 717.55 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c70e603-3d92-406b-bd6a-828fb8b74795")
-	)
-	(junction
 		(at 582.93 83.185)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f191773-dc11-4976-bea4-b6bac56c2601")
+	)
+	(junction
+		(at 721.995 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f4f3cd3-f87e-4edd-8594-b4566c9e6067")
 	)
 	(junction
 		(at 714.375 71.755)
@@ -11657,7 +11657,7 @@
 	)
 	(wire
 		(pts
-			(xy 713.74 44.45) (xy 717.55 44.45)
+			(xy 713.74 44.45) (xy 721.995 44.45)
 		)
 		(stroke
 			(width 0)
@@ -13475,16 +13475,6 @@
 		)
 		(uuid "e81353e0-2e6f-4c63-99ca-2409b308f2ac")
 	)
-	(wire
-		(pts
-			(xy 717.55 44.45) (xy 717.55 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e855edde-c3b2-46dd-b6f2-b0423753c633")
-	)
 	(polyline
 		(pts
 			(xy 629.92 280.67) (xy 629.92 158.75)
@@ -13584,6 +13574,16 @@
 			(type default)
 		)
 		(uuid "f03ee015-97fd-4a16-9144-e973b4bdc683")
+	)
+	(wire
+		(pts
+			(xy 721.995 44.45) (xy 721.995 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d02996-72a1-4542-87f2-48a9c600942b")
 	)
 	(wire
 		(pts
@@ -13869,6 +13869,17 @@
 			(justify left bottom)
 		)
 		(uuid "1a65de3c-7c8f-4136-bfb8-ff086eccf714")
+	)
+	(label "GND"
+		(at 307.975 120.015 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ee450ff-0b94-4b22-9608-4980557b711e")
 	)
 	(label "Diff Pair (-) 90ohm"
 		(at 491.49 61.595 0)
@@ -21158,7 +21169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f757d03-5224-403d-a5cb-b6edc4beaa98")
-		(property "Reference" "U5"
+		(property "Reference" "U13"
 			(at 723.6461 73.66 0)
 			(effects
 				(font
@@ -21227,7 +21238,7 @@
 		(instances
 			(project ""
 				(path "/eb5365fc-f6b5-4558-a59a-9210174c0865"
-					(reference "U5")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -24339,7 +24350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62d515c7-9732-48a8-a010-54368448a94f")
-		(property "Reference" "CN5"
+		(property "Reference" "SWD"
 			(at 514.35 219.7099 0)
 			(effects
 				(font
@@ -24420,7 +24431,7 @@
 		(instances
 			(project ""
 				(path "/eb5365fc-f6b5-4558-a59a-9210174c0865"
-					(reference "CN5")
+					(reference "SWD")
 					(unit 1)
 				)
 			)
