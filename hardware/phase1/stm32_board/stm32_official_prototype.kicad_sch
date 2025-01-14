@@ -10294,6 +10294,12 @@
 		(uuid "40bba83a-6907-4be1-9450-3120a22b8423")
 	)
 	(junction
+		(at 695.96 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44d8d2da-2160-494b-af0e-e01d91343947")
+	)
+	(junction
 		(at 288.925 337.185)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10821,6 +10827,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.955 250.19) (xy 669.925 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7a9947-5f67-4a7b-95e2-2526386511c9")
+	)
+	(wire
+		(pts
 			(xy 580.39 41.91) (xy 590.55 41.91)
 		)
 		(stroke
@@ -10948,16 +10964,6 @@
 			(type default)
 		)
 		(uuid "15940afa-8d82-4bc9-8b76-17c940f4842f")
-	)
-	(wire
-		(pts
-			(xy 669.925 250.19) (xy 666.115 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "161235c7-1316-472f-9bf2-e4b8ff74238d")
 	)
 	(wire
 		(pts
@@ -12878,6 +12884,16 @@
 			(type default)
 		)
 		(uuid "c0c29d3f-451d-4941-bc4d-f056c46ca7d5")
+	)
+	(wire
+		(pts
+			(xy 695.96 250.19) (xy 709.295 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f54de7-73f0-40ce-b9bf-3c466c2c852c")
 	)
 	(wire
 		(pts
@@ -16791,6 +16807,28 @@
 			)
 		)
 	)
+	(global_label "PH3"
+		(shape bidirectional)
+		(at 655.955 250.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "664a4487-ec95-4b4d-8223-d11fafc0e8bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 648.0485 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PG4"
 		(shape bidirectional)
 		(at 66.675 95.25 180)
@@ -18375,7 +18413,7 @@
 			)
 		)
 	)
-	(global_label "PH3-BOOT0"
+	(global_label "PH3"
 		(shape bidirectional)
 		(at 51.435 80.01 180)
 		(fields_autoplaced yes)
@@ -18387,7 +18425,7 @@
 		)
 		(uuid "a181578e-d7aa-4c2d-b284-05599ef14772")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.848 80.01 0)
+			(at 43.5285 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19037,22 +19075,22 @@
 	)
 	(global_label "PH3-BOOT0"
 		(shape bidirectional)
-		(at 666.115 250.19 180)
+		(at 709.295 250.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bbee0a3f-c055-4bc3-9ceb-58c1d276a193")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 650.528 250.19 0)
+			(at 724.882 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23669,7 +23707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS02-66-60-BK-160-LCR-D:SW_TS02-66-60-BK-160-LCR-D"
+		(property "Footprint" "TS04_66_43_BK_260_SMT:SW_TS04-66-43-BK-260-SMT"
 			(at 99.06 311.785 90)
 			(effects
 				(font
@@ -29092,7 +29130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS02-66-60-BK-160-LCR-D:SW_TS02-66-60-BK-160-LCR-D"
+		(property "Footprint" "TS04_66_43_BK_260_SMT:SW_TS04-66-43-BK-260-SMT"
 			(at 99.06 363.22 90)
 			(effects
 				(font
