@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.7,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -125,7 +125,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LTC3556_v2.0.kicad_pro",
+    "filename": "LTC3556_v2.3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -448,9 +448,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.3,
-        "via_drill": 0.15,
+        "track_width": 0.6,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "Gerber File LTC3556 v2.3/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
