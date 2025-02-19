@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=132134
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2019-06-21 08:30:47
+Downloaded=2025-01-23 00:53:32
+3D=Y
