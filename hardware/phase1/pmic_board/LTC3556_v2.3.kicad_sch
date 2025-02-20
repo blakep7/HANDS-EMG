@@ -7899,6 +7899,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C480342"
+			(at 351.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "addd1d50-e536-454e-8de4-d51df8924afc")
 		)
@@ -9000,6 +9009,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C10418"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b25d299-a02b-4a3a-8975-ebf6a0f29ecd")
 		)
@@ -9168,6 +9186,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 396.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C474922"
 			(at 396.24 116.84 0)
 			(effects
 				(font
@@ -10903,6 +10930,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C685032"
+			(at 213.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "10606699-5361-4ecd-ab4c-93ea080a6fa7")
 		)
@@ -12298,6 +12334,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C512761"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33b20a38-89f0-4d84-a9d0-d32a69dc1d5c")
 		)
@@ -13356,7 +13401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Sim.Type" "C474920"
 			(at 396.24 133.35 0)
 			(effects
 				(font
@@ -14495,7 +14540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 396.24 83.82 0)
 			(effects
 				(font
@@ -14541,6 +14586,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 396.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C173752"
 			(at 396.24 83.82 0)
 			(effects
 				(font
@@ -14995,6 +15049,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 396.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C474920"
 			(at 396.24 60.96 0)
 			(effects
 				(font
