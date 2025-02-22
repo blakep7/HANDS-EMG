@@ -465,7 +465,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "ads1299_official_prototype.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",

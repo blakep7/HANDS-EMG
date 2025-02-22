@@ -1,4 +1,4 @@
-24253804480026404
+24255544511608707
 5000
 KEYSTONE_5000
 
@@ -13,6 +13,13 @@ KEYSTONE_5001
 0
 1
 1
+1725656
+PHOENIX_1725656
+
+
+0
+2
+2
 ADS1299
 TQFP64
 <b>TQFP - 64</b><p><a href='http://www.latticesemi.com/lit/docs/package/pkg.pdf'>http://www.latticesemi.com/lit/docs/package/pkg.pdf</a>
