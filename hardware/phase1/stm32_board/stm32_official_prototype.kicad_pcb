@@ -166,7 +166,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../../Downloads/STM32_Board/STM32 Manufacturing Files/")
+			(outputdirectory "../../../../../../../Downloads/STM32_Board/STM32 Manufacturing Files/")
 		)
 	)
 	(net 0 "")
@@ -10570,7 +10570,7 @@
 		(uuid "9f3c81a3-ee22-4cb8-8b01-65659961750b")
 		(at 119.2 37.8 180)
 		(property "Reference" "J1"
-			(at 3.175 -7.385 360)
+			(at 3.175 -7.385 0)
 			(layer "F.SilkS")
 			(uuid "e41df42d-f7ac-4e03-8eda-ce20649417bf")
 			(effects
@@ -10581,7 +10581,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 9.525 1.115 360)
+			(at 9.525 1.115 0)
 			(layer "F.Fab")
 			(uuid "58803a2e-2eff-4c5a-8bd9-3018c2f13dfe")
 			(effects
@@ -10592,7 +10592,7 @@
 			)
 		)
 		(property "Footprint" "1725656:PHOENIX_1725656"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8833aeb-b8f2-4b7d-b9e4-ad6c9f363dd9")
@@ -10604,7 +10604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c56bf35-deff-44d2-96a2-ba1a118ad266")
@@ -10616,7 +10616,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b2b3a79b-7b00-47f7-809a-6a0c0c74a208")
@@ -21676,6 +21676,72 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.Cu")
+		(uuid "4ebdc3ed-f84d-48ad-a3bc-b775e324cd86")
+		(pts
+			(xy 79.296625 29.65) (xy 182.896625 29.65)
+		)
+		(height -11.15)
+		(gr_text "103.6000 mm"
+			(at 131.096625 16.7 0)
+			(layer "F.Cu")
+			(uuid "4ebdc3ed-f84d-48ad-a3bc-b775e324cd86")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.Cu")
+		(uuid "7d9c4690-af3d-4a9e-ab56-7f9ffd0cfda8")
+		(pts
+			(xy 182.896625 29.65) (xy 182.996625 143.7)
+		)
+		(height -23.00809)
+		(gr_text "114.0500 mm"
+			(at 207.754705 86.653248 270.0502374)
+			(layer "F.Cu")
+			(uuid "7d9c4690-af3d-4a9e-ab56-7f9ffd0cfda8")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 160.2 49.2)
@@ -47080,7 +47146,7 @@
 				(xy 179.490501 30.146845) (xy 179.794966 30.27296) (xy 179.873782 30.305607) (xy 179.883586 30.310179)
 				(xy 180.25157 30.501741) (xy 180.260917 30.507138) (xy 180.559094 30.697099) (xy 180.610807 30.730044)
 				(xy 180.619668 30.736248) (xy 180.948811 30.98881) (xy 180.957085 30.995754) (xy 181.262943 31.276022)
-				(xy 181.270582 31.28366) (xy 181.298664 31.314306) (xy 181.550866 31.589538) (xy 181.557819 31.597825)
+				(xy 181.270582 31.28366) (xy 181.339752 31.359146) (xy 181.550866 31.589538) (xy 181.557819 31.597825)
 				(xy 181.810359 31.926942) (xy 181.816564 31.935803) (xy 182.039469 32.285696) (xy 182.044877 32.295064)
 				(xy 182.236432 32.663038) (xy 182.241002 32.672838) (xy 182.399762 33.056122) (xy 182.403459 33.066278)
 				(xy 182.528207 33.46193) (xy 182.531007 33.472378) (xy 182.620799 33.877403) (xy 182.622677 33.888057)
@@ -47099,7 +47165,7 @@
 				(xy 83.534676 143.42608) (xy 83.524023 143.424202) (xy 83.118994 143.334411) (xy 83.108545 143.331611)
 				(xy 82.712894 143.206865) (xy 82.702729 143.203165) (xy 82.319453 143.044408) (xy 82.309659 143.039842)
 				(xy 81.941661 142.848276) (xy 81.932298 142.84287) (xy 81.582408 142.619967) (xy 81.573547 142.613762)
-				(xy 81.244427 142.36122) (xy 81.23614 142.354267) (xy 80.988271 142.127139) (xy 80.93026 142.073982)
+				(xy 81.244427 142.36122) (xy 81.23614 142.354267) (xy 81.029501 142.164919) (xy 80.93026 142.073982)
 				(xy 80.922617 142.066338) (xy 80.850636 141.987785) (xy 80.642352 141.760483) (xy 80.635403 141.752203)
 				(xy 80.588446 141.691008) (xy 80.38284 141.423058) (xy 80.376637 141.414197) (xy 80.362589 141.392146)
 				(xy 80.153735 141.064312) (xy 80.148342 141.054971) (xy 79.956772 140.68697) (xy 79.952203 140.677173)
@@ -54078,6 +54144,28 @@
 				(xy 79.296625 29.65) (xy 182.896625 29.65) (xy 182.996625 143.7) (xy 79.396625 143.7)
 			)
 		)
+	)
+	(zone
+		(net 117)
+		(net_name "VDD")
+		(layer "In3.Cu")
+		(uuid "be60fe80-4026-438f-a25e-a39eb0d13bb6")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.635)
+		)
+		(polygon
+			(pts
+				(xy 79.296625 29.65) (xy 182.896625 29.65) (xy 182.996625 143.7) (xy 79.396625 143.7)
+			)
+		)
 		(filled_polygon
 			(layer "In3.Cu")
 			(pts
@@ -58189,6 +58277,27 @@
 				(xy 83.118983 30.015616) (xy 83.524048 29.925817) (xy 83.534659 29.923946) (xy 83.946001 29.869794)
 				(xy 83.956731 29.868855) (xy 84.273335 29.855034) (xy 84.374501 29.850618) (xy 84.379909 29.8505)
 				(xy 84.416506 29.8505) (xy 177.776742 29.8505) (xy 177.813917 29.8505)
+			)
+		)
+	)
+	(zone
+		(net 117)
+		(net_name "VDD")
+		(layer "In3.Cu")
+		(uuid "e3aac31d-b678-4de3-8216-a1f2fb9057c5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.635)
+		)
+		(polygon
+			(pts
+				(xy 79.296625 29.65) (xy 182.896625 29.65) (xy 182.996625 143.7) (xy 79.396625 143.7)
 			)
 		)
 	)
