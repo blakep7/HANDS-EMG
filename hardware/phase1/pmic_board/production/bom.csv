@@ -3,7 +3,6 @@ C1,1206,1,10uF,
 "C10, C9",0402,2,10pF,
 "C11, C12, C13, C14",0402,4,10uF,
 "C15, C16, C18",0805,3,10uF,
-C17,0805,1,DNI,
 C2,1206,1,100nF,
 "C3, C4",0402,2,100nF,
 "C5, C6, C7",0402,3,1uF,
@@ -11,15 +10,14 @@ C8,0402,1,130pF,
 "D1, D2",0805,2,LED,
 J1,USB_Micro-B_Amphenol_10118194-0001LF_Horizontal,1,USB_B_Micro,C10418
 J12,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,1,Conn_01x02_Pin,C173752
-J13,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Pin,
-J14,PinHeader_1x01_P2.54mm_Vertical,1,Conn_01x01_Pin,
-J18,"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",1,Screw_Terminal_01x02,
-J19,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,
+J13,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Pin,C49257
+J14,PinHeader_1x01_P2.54mm_Vertical,1,Conn_01x01_Pin,C492400
+"J18, J21","TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",2,Screw_Terminal_01x02,C474920
+J19,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,C225477
 J20,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",1,Screw_Terminal_01x04,C474922
-J21,"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",1,Screw_Terminal_01x02,C474920
-J22,PinSocket_1x07_P2.54mm_Vertical,1,Conn_01x07,
-J23,PinSocket_1x04_P2.54mm_Vertical,1,Conn_01x04,
-J24,PinSocket_1x02_P2.54mm_Vertical,1,Conn_01x02,
+J22,PinSocket_1x07_P2.54mm_Vertical,1,Conn_01x07,C2832270
+J23,PinSocket_1x04_P2.54mm_Vertical,1,Conn_01x04,C2685089
+J24,PinSocket_1x02_P2.54mm_Vertical,1,Conn_01x02,C49661
 L1,L_Coilcraft_LPS4018,1,2.2uH/1.6A,
 "L2, L3",L_Coilcraft_LPS3010,2,4.7uH/500mA,
 L7,L_Coilcraft_LPS4018,1,3.3uH/1.7A,
@@ -33,8 +31,7 @@ R4,0402,1,100K,
 R5,0402,1,510 Ohm,
 "R6, R7",0402,2,3.01K,
 R8,0402,1,383K,
-R9,0402,1,350K,
+R9,0603,1,350K,
 SW1,SW_Slide_SPDT_Straight_CK_OS102011MS2Q,1,SW_SPDT,C480342
-TH1,C_Disc_D3.0mm_W1.6mm_P2.50mm,1,100K,
 U1,QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias,1,LTC3556EUFD_PBF,C685032
 U2,SOIC-8_3.9x4.9mm_P1.27mm,1,TC7660B,C512761
