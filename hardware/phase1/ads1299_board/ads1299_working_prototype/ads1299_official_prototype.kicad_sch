@@ -17035,28 +17035,6 @@
 			)
 		)
 	)
-	(global_label "BIASIN"
-		(shape bidirectional)
-		(at 307.34 261.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "159c2166-f110-479c-a13e-ae1db15c3c3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5447 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "24"
 		(shape bidirectional)
 		(at 48.26 193.04 0)
@@ -17343,7 +17321,7 @@
 			)
 		)
 	)
-	(global_label "SRB2"
+	(global_label "SRB1"
 		(shape bidirectional)
 		(at 83.82 64.77 180)
 		(fields_autoplaced yes)
@@ -18390,6 +18368,28 @@
 		(uuid "4e5a2460-22b2-4554-8cfd-b03ffb9469bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.2255 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BIAS_ELEC"
+		(shape input)
+		(at 307.34 261.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e9cff20-c7e8-4a1c-bfda-f826a0a2f417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 320.0618 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19675,7 +19675,7 @@
 			)
 		)
 	)
-	(global_label "SRB1"
+	(global_label "SRB2"
 		(shape bidirectional)
 		(at 83.82 67.31 180)
 		(fields_autoplaced yes)
@@ -20071,28 +20071,6 @@
 			)
 		)
 	)
-	(global_label "BIAS_ELEC"
-		(shape input)
-		(at 303.53 292.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fb4f659-8af8-44ff-85ef-5a7399516bd8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.2518 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BIASREF"
 		(shape bidirectional)
 		(at 165.1 34.29 0)
@@ -20128,6 +20106,28 @@
 		(uuid "a14b54a6-c0e6-4a3b-a18a-0bd82d694dff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.7527 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BIAS_ELEC"
+		(shape input)
+		(at 201.93 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a223ca7c-4c6b-4567-9a0d-30769a1bd709")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6518 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21277,6 +21277,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BIASIN"
+		(shape bidirectional)
+		(at 303.53 292.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e700ea4e-69e3-4dbf-8dd6-af6ea4d2f1c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.7347 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -33781,73 +33803,6 @@
 			(project "ads1299_official_prototype"
 				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
 					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 201.93 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7409482-e580-4920-b8d0-87bb29c59fb8")
-		(property "Reference" "#PWR08"
-			(at 208.28 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 205.74 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 201.93 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2285ddbf-df75-4370-8c2b-d216bc5c102f")
-		)
-		(instances
-			(project "ads1299_official_prototype"
-				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
