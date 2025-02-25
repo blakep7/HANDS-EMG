@@ -1,4 +1,4 @@
-24255618653926526
+24260840039245868
 5000
 KEYSTONE_5000
 
@@ -98192,6 +98192,27 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+footprints
+RES_RC0603_YAG
+
+RC0603FR-13100KL 
+0
+2
+2
+footprints
+RES_RC0603_YAG-L
+
+RC0603FR-13100KL 
+0
+2
+2
+footprints
+RES_RC0603_YAG-M
+
+RC0603FR-13100KL 
 0
 2
 2
