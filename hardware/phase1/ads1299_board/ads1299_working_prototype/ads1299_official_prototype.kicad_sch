@@ -2389,6 +2389,177 @@
 				)
 			)
 		)
+		(symbol "FCM_1608KF-601T03:FCM_1608KF-601T03"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FCM_1608KF-601T03"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BEADC1608X95N"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tai-tech.com.tw/_upload/files/Specification/general/FCM1608-Series.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 350mA 500mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.95"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TAI-TECH"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FCM 1608KF-601T03"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FCM_1608KF-601T03_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "FXO-HC735-8:FXO-HC735-8"
 			(pin_names
 				(offset 1.016)
@@ -7386,6 +7557,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 207.01) (xy 336.55 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a85587-b343-4a9a-b40b-a9f0ea08af13")
+	)
+	(wire
+		(pts
 			(xy 214.63 90.17) (xy 236.22 90.17)
 		)
 		(stroke
@@ -8986,6 +9167,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 207.01) (xy 349.25 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55047eba-bd34-408b-9dc6-e2254b0ef269")
+	)
+	(wire
+		(pts
 			(xy 148.59 179.07) (xy 148.59 185.42)
 		)
 		(stroke
@@ -9406,16 +9597,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 179.07) (xy 346.71 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a73d658-083d-466c-95c9-204e934573dd")
-	)
-	(wire
-		(pts
 			(xy 365.76 58.42) (xy 365.76 62.23)
 		)
 		(stroke
@@ -9453,16 +9634,6 @@
 			(type default)
 		)
 		(uuid "6baa3ed5-044a-46bb-afb4-1c8cdeb50cdc")
-	)
-	(wire
-		(pts
-			(xy 320.04 179.07) (xy 320.04 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c1e8560-4aed-4a44-bcad-f24033e5935d")
 	)
 	(wire
 		(pts
@@ -9803,16 +9974,6 @@
 			(type default)
 		)
 		(uuid "84711092-126c-4fb8-97e7-2ac1f7bac9b5")
-	)
-	(wire
-		(pts
-			(xy 344.17 179.07) (xy 346.71 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847ce108-4b35-4c0e-9131-316380d6d93a")
 	)
 	(wire
 		(pts
@@ -10416,6 +10577,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 207.01) (xy 336.55 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7ecb39-696f-4de8-b5b1-48ab0b91df3f")
+	)
+	(wire
+		(pts
 			(xy 563.88 340.36) (xy 557.53 340.36)
 		)
 		(stroke
@@ -10873,16 +11044,6 @@
 			(type default)
 		)
 		(uuid "ba525bf8-ead6-4190-968c-c4bc701d9498")
-	)
-	(wire
-		(pts
-			(xy 323.85 179.07) (xy 320.04 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba5b25f6-a887-4e11-9729-635a11131d5d")
 	)
 	(wire
 		(pts
@@ -12053,6 +12214,16 @@
 			(type default)
 		)
 		(uuid "f8e08688-447e-4ee9-98cf-81a00bca1133")
+	)
+	(wire
+		(pts
+			(xy 344.17 207.01) (xy 349.25 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f950d2e0-07d5-4417-8fe1-2eb391272f5b")
 	)
 	(wire
 		(pts
@@ -17854,155 +18025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RC0603JR-070RL:RC0603JR-070RL")
-		(at 334.01 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11835560-b30f-47fa-bb3c-bb1e50853c08")
-		(property "Reference" "RG1"
-			(at 334.01 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 334.01 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RC0603JR-070RL:RESC1607X60N"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Yageo"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film\n                        \n"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603 Yageo"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603JR-070RL/Yageo/view-part/?ref=snap"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "RC0603JR-070RL"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RC0603JR-070RL/Yageo/view-part/?ref=eda"
-			(at 334.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8755738-8b3e-41d1-847f-27fada693c27")
-		)
-		(pin "1"
-			(uuid "9566ca5d-270c-426d-8893-86e804b11de8")
-		)
-		(instances
-			(project ""
-				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
-					(reference "RG1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 165.1 373.38 0)
 		(unit 1)
@@ -21297,6 +21319,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 349.25 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50304dc9-a489-490f-8d08-4141cec4215b")
+		(property "Reference" "#PWR02"
+			(at 349.25 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 349.25 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 349.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2320184-6532-48e1-a262-ba54c4e0bb23")
+		)
+		(instances
+			(project "ads1299_official_prototype"
+				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 262.89 382.27 180)
 		(unit 1)
@@ -21550,72 +21638,6 @@
 			(project ""
 				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 320.04 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52b00909-1272-4f6d-b47f-e169dd5a6200")
-		(property "Reference" "#PWR010"
-			(at 320.04 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 320.04 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50ff1c14-96db-439c-b1d7-fecc63c9f51c")
-		)
-		(instances
-			(project ""
-				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -23087,6 +23109,72 @@
 			(project ""
 				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 336.55 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c1c4ab2-7a1a-4117-823b-c4e14e015648")
+		(property "Reference" "#PWR01"
+			(at 336.55 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "434a311a-3df0-4487-aa43-9aa1bd3663dc")
+		)
+		(instances
+			(project "ads1299_official_prototype"
+				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -26412,72 +26500,6 @@
 			(project "ads1299_official_prototype"
 				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 346.71 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af6a29a8-5b45-4b51-869c-c70d0bc337f6")
-		(property "Reference" "#PWR022"
-			(at 346.71 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 346.71 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 346.71 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1636d935-da32-4849-b18d-b8cc845afcbe")
-		)
-		(instances
-			(project ""
-				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -30421,6 +30443,149 @@
 			(project ""
 				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FCM_1608KF-601T03:FCM_1608KF-601T03")
+		(at 341.63 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc441f67-e123-40ad-ad61-4105adc3f5ce")
+		(property "Reference" "FB1"
+			(at 347.98 195.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FCM_1608KF-601T03"
+			(at 347.98 198.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BEADC1608X95N"
+			(at 436.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tai-tech.com.tw/_upload/files/Specification/general/FCM1608-Series.pdf"
+			(at 536.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 350mA 500mOhm"
+			(at 341.63 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.95"
+			(at 736.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAI-TECH"
+			(at 836.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FCM 1608KF-601T03"
+			(at 936.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 1036.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 1136.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1236.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1336.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89020a28-b109-43ff-8c69-0abbac32e1fb")
+		)
+		(pin "2"
+			(uuid "074a6003-de59-435a-a02b-c9bb62203042")
+		)
+		(instances
+			(project ""
+				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
