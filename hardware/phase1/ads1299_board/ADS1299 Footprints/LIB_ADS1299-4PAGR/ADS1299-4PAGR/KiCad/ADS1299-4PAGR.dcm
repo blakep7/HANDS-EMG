@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1299-4PAGR
+D Low-Noise, 4-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements
+K
+F http://www.ti.com/lit/ds/symlink/ads1299-4.pdf
+$ENDCMP
+#
+#End Doc Library
