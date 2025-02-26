@@ -8273,6 +8273,15 @@
 		(at 80.01 280.67)
 		(uuid "ffcd1d5e-0cda-43ab-b69f-175f87ee8fe1")
 	)
+	(bus_entry
+		(at 400.05 179.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada98bc5-9dc2-44c5-99c1-c95ceef06a40")
+	)
 	(wire
 		(pts
 			(xy 22.86 246.38) (xy 30.48 246.38)
@@ -10655,6 +10664,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 179.07) (xy 346.71 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a73d658-083d-466c-95c9-204e934573dd")
+	)
+	(wire
+		(pts
 			(xy 160.02 29.21) (xy 165.1 29.21)
 		)
 		(stroke
@@ -10712,6 +10731,16 @@
 			(type default)
 		)
 		(uuid "6c08d2dd-3e01-4843-8d73-0d1038095a4f")
+	)
+	(wire
+		(pts
+			(xy 320.04 179.07) (xy 320.04 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1e8560-4aed-4a44-bcad-f24033e5935d")
 	)
 	(wire
 		(pts
@@ -11092,6 +11121,16 @@
 			(type default)
 		)
 		(uuid "84711092-126c-4fb8-97e7-2ac1f7bac9b5")
+	)
+	(wire
+		(pts
+			(xy 344.17 179.07) (xy 346.71 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847ce108-4b35-4c0e-9131-316380d6d93a")
 	)
 	(wire
 		(pts
@@ -12172,6 +12211,16 @@
 			(type default)
 		)
 		(uuid "ba525bf8-ead6-4190-968c-c4bc701d9498")
+	)
+	(wire
+		(pts
+			(xy 323.85 179.07) (xy 320.04 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5b25f6-a887-4e11-9729-635a11131d5d")
 	)
 	(wire
 		(pts
@@ -19982,6 +20031,155 @@
 		)
 	)
 	(symbol
+		(lib_id "RC0603JR-070RL:RC0603JR-070RL")
+		(at 334.01 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11835560-b30f-47fa-bb3c-bb1e50853c08")
+		(property "Reference" "RG1"
+			(at 334.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 334.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RC0603JR-070RL:RESC1607X60N"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film\n                        \n"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Yageo"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603JR-070RL/Yageo/view-part/?ref=snap"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603JR-070RL"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RC0603JR-070RL/Yageo/view-part/?ref=eda"
+			(at 334.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8755738-8b3e-41d1-847f-27fada693c27")
+		)
+		(pin "1"
+			(uuid "9566ca5d-270c-426d-8893-86e804b11de8")
+		)
+		(instances
+			(project ""
+				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
+					(reference "RG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 165.1 373.38 0)
 		(unit 1)
@@ -23074,6 +23272,72 @@
 			(project "ads1299_official_prototype"
 				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b00909-1272-4f6d-b47f-e169dd5a6200")
+		(property "Reference" "#PWR010"
+			(at 320.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50ff1c14-96db-439c-b1d7-fecc63c9f51c")
+		)
+		(instances
+			(project ""
+				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -28030,6 +28294,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 346.71 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af6a29a8-5b45-4b51-869c-c70d0bc337f6")
+		(property "Reference" "#PWR022"
+			(at 346.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 346.71 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 346.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1636d935-da32-4849-b18d-b8cc845afcbe")
+		)
+		(instances
+			(project ""
+				(path "/0ef51407-3c01-447a-a681-0fc3deaf4e2b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 318.77 54.61 0)
 		(unit 1)
@@ -31251,7 +31581,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb014a1d-e88f-44c9-9de3-57ed893839a1")
 		(property "Reference" "U1"
 			(at 124.46 13.97 0)
