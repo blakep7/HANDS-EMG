@@ -1,7 +1,9 @@
 import tensorflow as tf
 import numpy as np
 import pandas as pd #keep pandas here for now
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder, StandardScaler 
+from sklearn.model_selection import train_test_split
+
 #=======hyperparameters
 num_features = 12 * 12
 num_classes = 5
