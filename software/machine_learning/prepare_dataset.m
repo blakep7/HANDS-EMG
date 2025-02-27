@@ -18,8 +18,6 @@
 % will filter out the gestures of interest. Rerun the data analysis script *FIXME*
 % to find additional channels or gestures of interest (in descending order)
 
-clear all;
-clc;
 subjects = 1:40;
 subjects_label = string(subjects);
 
@@ -30,21 +28,28 @@ subjects_label = string(subjects);
 channels_of_interest = [8 3 2 7];
 %uncomment below for all 12 channels
 %channels_of_interest = 1:12;
+winSize = 400;
+winInc = 20;
 
+data = table();
 
 for i = subjects
-    subject_name = sprintf("S%s_E1_A1.mat",subjects_label(i))
-    data = load(subject_name);
+    subject_name = sprintf("S%s_E1_A1.mat",subjects_label(i));
+    subj = load(subject_name);
 
-    emg = data.emg;
+    emg = subj.emg;
     emg = emg(:,channels_of_interest);
 
-    %**FIXME** script is in progress
 
+    [windows, y_output] = window_data(emg, restimulus, rerepetition, winSize, winInc);
 
+    %this will package data into a table
+    subjData = feature_extraction(windows, y_output, i, length(channels_of_interest));
 
-
+    data = [data subjData];
 end
+
+writetable(data,"dataForML.csv");
 
 
 
