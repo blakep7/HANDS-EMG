@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FCM_1608KF-601T03
+D 600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 350mA 500mOhm
+K
+F https://www.tai-tech.com.tw/_upload/files/Specification/general/FCM1608-Series.pdf
+$ENDCMP
+#
+#End Doc Library
