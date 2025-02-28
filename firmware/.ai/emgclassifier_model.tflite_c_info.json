@@ -470,44 +470,44 @@
   ],
   "environment": {
     "generated_model": {
-      "generated_time": "2025-02-27T23:42:10-0800",
+      "generated_time": "2025-02-27T23:47:17-0800",
       "model_files": [
         {
           "name": "emgclassifier_data_params.h",
-          "signature": "0x34b9d1a3f05a93f39abf130b993fb677"
+          "signature": "0x1d8646e7475748d0e38043af9a7f9693"
         },
         {
           "name": "emgclassifier_data_params.c",
-          "signature": "0x8adf9bf84bc59361e1f3459b9c87421b"
+          "signature": "0x77b2523637e825488fe38ed700b8229a"
         },
         {
           "name": "emgclassifier_data.h",
-          "signature": "0x65e9e21dcc1c4d5ab3cc9a605617aa3e"
+          "signature": "0x9bd0fe1124e2d235c778416ac58bf285"
         },
         {
           "name": "emgclassifier_data.c",
-          "signature": "0x70df09c36a5d993ded57d06f35369df2"
+          "signature": "0x01617f52403cb6d909806d8cd9287717"
         },
         {
           "name": "emgclassifier_config.h",
-          "signature": "0x8e4bb4be1c509128d2bff8acadc375f2"
+          "signature": "0xbd72f73f4c1a74595167ce28634f698a"
         },
         {
           "name": "emgclassifier.h",
-          "signature": "0xf97a79bf6896bab47023efbf30dfca90"
+          "signature": "0x9e9c01048b94770bb23871636ed810cf"
         },
         {
           "name": "emgclassifier.c",
-          "signature": "0xefb5cdc9a0f87841a214eb9b0c850649"
+          "signature": "0x4a584617430f47afb1850cb905129db4"
         }
       ],
       "name": "emgclassifier"
     },
-    "network_signature": "0x59c4e4b3c97b4595",
+    "network_signature": "0xb8223920a3a8dae9",
     "test_name": "",
     "tools": [
       {
-        "arguments": "generate --target stm32l4 --name emgclassifier -m C:/Users/pears/OneDrive/Programming_Workspaces/git/Senior-Design-Team-9/software/machine_learning/model.tflite --compression none --verbosity 1 --workspace C:/Users/pears/AppData/Local/Temp/mxAI_workspace336993938223000548891639353387693 --output C:/Users/pears/.stm32cubemx/emgclassifier_output",
+        "arguments": "generate --target stm32l4 --name emgclassifier -m C:/Users/pears/OneDrive/Programming_Workspaces/git/Senior-Design-Team-9/software/machine_learning/model.tflite --compression none --verbosity 1 --workspace C:/Users/pears/AppData/Local/Temp/mxAI_workspace3373015052530003918380414259245474 --output C:/Users/pears/.stm32cubemx/emgclassifier_output",
         "environment": [
           "STATS_TYPE=X-CUBE-AI"
         ],
