@@ -104,7 +104,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 192.5 72.5)
+		(grid_origin 154.25 93.55)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -373,7 +373,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
 		(layer "F.Cu")
 		(uuid "161f44c1-44a3-4c05-9df1-80fcc2d6a3a7")
-		(at 152.8 97.2)
+		(at 114.55 118.25)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "REF**"
@@ -496,7 +496,7 @@
 	(footprint "hands-emg-lib:STM32L496ZGT6"
 		(layer "F.Cu")
 		(uuid "17b1a1ed-370b-44a3-92be-52e7a6e2045b")
-		(at 217.85 72.55)
+		(at 179.6 93.6)
 		(tags "STM32L496ZGT6 ")
 		(property "Reference" "U2"
 			(at 0 0 0)
@@ -2419,7 +2419,7 @@
 	(footprint "hands-emg-lib:ADS1299-4PAGR"
 		(layer "F.Cu")
 		(uuid "510e98e9-10e2-43c7-86bf-4401a394d674")
-		(at 168.9 72.45)
+		(at 130.65 93.5)
 		(tags "ADS1299-4PAGR ")
 		(property "Reference" "U1"
 			(at 0 0 0)
@@ -6110,7 +6110,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
 		(layer "F.Cu")
 		(uuid "520b846e-d796-4cb4-a915-048255dcf8da")
-		(at 152.8 47.8)
+		(at 114.55 68.85)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "REF**"
@@ -6233,7 +6233,7 @@
 	(footprint "hands-emg-lib:LTC3556EUFD-PBF"
 		(layer "F.Cu")
 		(uuid "e26ee6c4-86cd-463f-ae4f-5443105ac4d1")
-		(at 192.5 72.5)
+		(at 154.25 93.55)
 		(tags "LTC3556EUFD-PBF ")
 		(property "Reference" "U3"
 			(at 0 0 0)
@@ -8209,7 +8209,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
 		(layer "F.Cu")
 		(uuid "ef6f1abc-c6db-4265-ad01-20ec3a849693")
-		(at 232.2 97.2)
+		(at 193.95 118.25)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "REF**"
@@ -8332,7 +8332,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
 		(layer "F.Cu")
 		(uuid "fee99ee2-2bf1-4a7b-9d78-4500b8509b2d")
-		(at 232.2 47.8)
+		(at 193.95 68.85)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "REF**"
@@ -8453,9 +8453,9 @@
 		)
 	)
 	(gr_arc
-		(start 232.8 45)
-		(mid 234.355635 45.644365)
-		(end 235 47.2)
+		(start 194.55 66.05)
+		(mid 196.105635 66.694365)
+		(end 196.75 68.25)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8464,9 +8464,9 @@
 		(uuid "05fa90f3-7f1c-4fce-a02f-c8bdae9c470d")
 	)
 	(gr_arc
-		(start 152.2 100)
-		(mid 150.644365 99.355635)
-		(end 150 97.8)
+		(start 113.95 121.05)
+		(mid 112.394365 120.405635)
+		(end 111.75 118.85)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8475,8 +8475,8 @@
 		(uuid "242511d0-0753-4170-9591-e4c477036704")
 	)
 	(gr_line
-		(start 150 97.8)
-		(end 150 47.2)
+		(start 111.75 118.85)
+		(end 111.75 68.25)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8485,9 +8485,9 @@
 		(uuid "56454a8d-1a21-459a-bae3-33d5fcb0f9f2")
 	)
 	(gr_arc
-		(start 150 47.2)
-		(mid 150.644365 45.644365)
-		(end 152.2 45)
+		(start 111.75 68.25)
+		(mid 112.394365 66.694365)
+		(end 113.95 66.05)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8496,8 +8496,8 @@
 		(uuid "5d73a199-1a96-416d-a82b-5073fcebfcd4")
 	)
 	(gr_line
-		(start 152.2 45)
-		(end 232.8 45)
+		(start 113.95 66.05)
+		(end 194.55 66.05)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8506,8 +8506,8 @@
 		(uuid "965ad9e2-a1e6-45b8-adb5-771a9c6acc15")
 	)
 	(gr_line
-		(start 232.8 100)
-		(end 152.2 100)
+		(start 194.55 121.05)
+		(end 113.95 121.05)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8516,9 +8516,9 @@
 		(uuid "ca9ffa68-2f9c-49da-a496-fb5a2b122d67")
 	)
 	(gr_arc
-		(start 235 97.8)
-		(mid 234.355635 99.355635)
-		(end 232.8 100)
+		(start 196.75 118.85)
+		(mid 196.105635 120.405635)
+		(end 194.55 121.05)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8527,8 +8527,8 @@
 		(uuid "e6185c09-69a0-4bda-aeaf-9474e1850516")
 	)
 	(gr_line
-		(start 235 47.2)
-		(end 235 97.8)
+		(start 196.75 68.25)
+		(end 196.75 118.85)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -8537,8 +8537,8 @@
 		(uuid "fb529c8f-2e41-4f86-926d-2596a373ba1c")
 	)
 	(gr_line
-		(start 150 72.5)
-		(end 235 72.5)
+		(start 111.75 93.55)
+		(end 196.75 93.55)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -8547,8 +8547,8 @@
 		(uuid "4bc1a180-0036-4c82-a701-e7f9cb9db65d")
 	)
 	(gr_line
-		(start 192.5 45)
-		(end 192.5 100)
+		(start 154.25 66.05)
+		(end 154.25 121.05)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -8573,31 +8573,31 @@
 		)
 		(polygon
 			(pts
-				(xy 147.8 94.75)
+				(xy 109.55 115.8)
 				(arc
-					(start 152.8 94.75)
-					(mid 154.532412 95.467588)
-					(end 155.25 97.2)
+					(start 114.55 115.8)
+					(mid 116.282412 116.517588)
+					(end 117 118.25)
 				)
-				(xy 155.25 102.2) (xy 229.75 102.2)
+				(xy 117 123.25) (xy 191.5 123.25)
 				(arc
-					(start 229.75 97.2)
-					(mid 230.467588 95.467588)
-					(end 232.2 94.75)
+					(start 191.5 118.25)
+					(mid 192.217588 116.517588)
+					(end 193.95 115.8)
 				)
-				(xy 237.2 94.75) (xy 237.2 50.25)
+				(xy 198.95 115.8) (xy 198.95 71.3)
 				(arc
-					(start 232.2 50.25)
-					(mid 230.467588 49.532412)
-					(end 229.75 47.8)
+					(start 193.95 71.3)
+					(mid 192.217588 70.582412)
+					(end 191.5 68.85)
 				)
-				(xy 229.75 42.8) (xy 155.25 42.8)
+				(xy 191.5 63.85) (xy 117 63.85)
 				(arc
-					(start 155.25 47.8)
-					(mid 154.532412 49.532412)
-					(end 152.8 50.25)
+					(start 117 68.85)
+					(mid 116.282412 70.582412)
+					(end 114.55 71.3)
 				)
-				(xy 147.8 50.25)
+				(xy 109.55 71.3)
 			)
 		)
 	)
