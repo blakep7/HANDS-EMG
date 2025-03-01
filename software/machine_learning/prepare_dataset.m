@@ -41,12 +41,12 @@ for i = subjects
     emg = emg(:,channels_of_interest);
 
 
-    [windows, y_output] = window_data(emg, restimulus, rerepetition, winSize, winInc);
+    [windows, y_output] = window_data(emg, subj.restimulus, subj.rerepetition, winSize, winInc);
 
     %this will package data into a table
     subjData = feature_extraction(windows, y_output, i, length(channels_of_interest));
 
-    data = [data subjData];
+    data = [data; subjData];
 end
 
 writetable(data,"dataForML.csv");

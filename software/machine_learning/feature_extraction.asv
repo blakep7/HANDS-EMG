@@ -42,7 +42,7 @@ for i=1:length(windows)
 
         label = sprintf("WAMP%d",channel);
         dataIdx = (data(:,channel)> 2*std(data(:,channel)));
-        output.(label)(i) = sum(abs(dataIdx(2:end) - dataIdx(1:end-1)));
+        output.(label)(i) = sum(abs(dataIdx(2:end,channel) - dataIdx(1:end-1)));
 
         label = sprintf("mean%d",channel);
         output.(label)(i) = mean(data(:,channel));
