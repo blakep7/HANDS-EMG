@@ -1,0 +1,1158 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e2d78ada-a6a6-48e7-a139-8dd69ce06e1e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "hands-emg-lib:LTC3556EUFD-PBF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 25.4 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LTC3556EUFD-PBF"
+				(at 25.4 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "hands-emg-lib:LTC3556EUFD-PBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3556fa.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Handheld/Mobile Devices PMIC 28-QFN (4x5)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Procurement" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3556EUFD-PBF/1840049"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LTC3556EUFD#PBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN-28_UFD_LIT QFN-28_UFD_LIT-M QFN-28_UFD_LIT-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTC3556EUFD-PBF_1_1"
+				(polyline
+					(pts
+						(xy 7.62 -53.34) (xy 43.18 -53.34)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -53.34)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -53.34) (xy 43.18 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 50.8 -5.08 180)
+					(length 7.62)
+					(name "LDO3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "VIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -12.7 180)
+					(length 7.62)
+					(name "VOUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -30.48 180)
+					(length 7.62)
+					(name "SWCD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "FB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "VIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -22.86 180)
+					(length 7.62)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -43.18 0)
+					(length 7.62)
+					(name "CLPROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -48.26 0)
+					(length 7.62)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "*CHRG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -40.64 0)
+					(length 7.62)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -10.16 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -17.78 180)
+					(length 7.62)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "SEQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "ENALL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -45.72 0)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "NTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -20.32 180)
+					(length 7.62)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "VIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "FB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "FB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -7.62 180)
+					(length 7.62)
+					(name "VC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -25.4 180)
+					(length 7.62)
+					(name "SWAB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTC3556EUFD-PBF_2_1"
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "DVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "PGOODALL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(polyline
+		(pts
+			(xy 228.6 127) (xy 228.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bccaeb7-e28c-4123-b78c-ebd320463ccb")
+	)
+	(polyline
+		(pts
+			(xy 284.48 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b45fb1-7394-40b3-adb7-3077ba230853")
+	)
+	(wire
+		(pts
+			(xy 254 152.4) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09f8921-c1a4-465c-90bc-9c8d2101fc28")
+	)
+	(wire
+		(pts
+			(xy 254 154.94) (xy 266.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0f88c8-66a0-4a63-acc6-abfc0bdb233d")
+	)
+	(text "Module Connections"
+		(exclude_from_sim no)
+		(at 255.016 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "092f6a44-34d1-43a7-bf88-465f6688fbdb")
+	)
+	(label "I2C_SDA"
+		(at 254 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03c28398-1527-444f-8ba6-f68006de7133")
+	)
+	(label "I2C_SCL"
+		(at 254 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47664d9d-6a1b-40ed-8656-64d3817886ec")
+	)
+	(global_label "I2C_SCL"
+		(shape output)
+		(at 266.7 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6024e886-53b6-41fe-aa8b-3e5a03e1e1ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.2447 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 266.7 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c63752eb-b268-4f2f-956f-551973e48270")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.3052 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:LTC3556EUFD-PBF")
+		(at 38.1 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ab2b046-44c0-4b7b-990c-1730690e1122")
+		(property "Reference" "U3"
+			(at 63.5 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC3556EUFD-PBF"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:LTC3556EUFD-PBF"
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3556fa.pdf"
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Handheld/Mobile Devices PMIC 28-QFN (4x5)"
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3556EUFD-PBF/1840049"
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "5fadcb44-4826-4c96-b40d-4ffbe35a5a6d")
+		)
+		(pin "17"
+			(uuid "1ad52aab-e338-4ab9-aa5e-1e7714c2f19e")
+		)
+		(pin "13"
+			(uuid "f410504b-07ec-4ffd-851f-f68057caa957")
+		)
+		(pin "16"
+			(uuid "322c353e-1e91-4eb3-86dc-7a6a3508d209")
+		)
+		(pin "26"
+			(uuid "635cd629-e016-4944-a7f3-c6f298aa7278")
+		)
+		(pin "27"
+			(uuid "5b61a954-4a62-448a-8a33-02a5d47259b6")
+		)
+		(pin "8"
+			(uuid "fe8bfbf9-1eb5-4b23-aaf0-74b218b129b1")
+		)
+		(pin "28"
+			(uuid "254a017e-6576-4649-b97b-044103a1546a")
+		)
+		(pin "6"
+			(uuid "1f2f0a04-cba5-43cf-ad97-f4cea869a680")
+		)
+		(pin "7"
+			(uuid "09ceaa91-9c88-449c-b211-49432ec7b12a")
+		)
+		(pin "23"
+			(uuid "0f77feb5-90ec-4c5e-9cf2-5b1882f3ea1e")
+		)
+		(pin "14"
+			(uuid "16a765d1-25aa-48f8-9051-046c278bffc5")
+		)
+		(pin "24"
+			(uuid "923fc8a8-b8b4-44b2-afb0-dda3c47153dc")
+		)
+		(pin "5"
+			(uuid "8a66f13d-badf-4d65-9291-54d7add3037d")
+		)
+		(pin "9"
+			(uuid "d94abc04-dbf2-49e7-b6d2-6031ecce6e97")
+		)
+		(pin "10"
+			(uuid "66cd9855-0523-4eef-8cb8-3e8b2444a55d")
+		)
+		(pin "1"
+			(uuid "22bdfaae-a228-40c2-b1f5-8b099a4e1246")
+		)
+		(pin "11"
+			(uuid "303737b6-65df-4a2f-b57a-06862ef40c1c")
+		)
+		(pin "2"
+			(uuid "0f634073-1c28-4945-a62b-f4f4a92c84f4")
+		)
+		(pin "20"
+			(uuid "294032ac-fd9c-46bb-a09b-12aa308f4ffd")
+		)
+		(pin "4"
+			(uuid "ec1b689a-730d-4853-be30-0278f9c192ed")
+		)
+		(pin "19"
+			(uuid "ea43e3a8-4ed2-42da-9f25-c8bbede93441")
+		)
+		(pin "3"
+			(uuid "6f6ca901-b447-4d76-ad0f-59b0ff5e4193")
+		)
+		(pin "29"
+			(uuid "acd7c972-fe5b-4e7f-a888-79761ab25d4d")
+		)
+		(pin "15"
+			(uuid "d236b29f-2e54-41fc-b633-9317f0419289")
+		)
+		(pin "12"
+			(uuid "12144e0a-41a7-44ef-94f9-bf7fdec30af2")
+		)
+		(pin "25"
+			(uuid "e90162c8-652c-4760-9ecc-55758bb9beef")
+		)
+		(pin "22"
+			(uuid "827eaf2b-7fc4-43a7-8b06-d6c73778f656")
+		)
+		(pin "21"
+			(uuid "3e030be6-0c9f-4fcc-a86e-428342972e2f")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/44136480-59be-49b2-8c76-b704f42332b0"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:LTC3556EUFD-PBF")
+		(at 38.1 114.3 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c11e264-0a21-460e-b4dd-b807673b1d30")
+		(property "Reference" "U3"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTC3556EUFD-PBF"
+			(at 48.006 106.934 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:LTC3556EUFD-PBF"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3556fa.pdf"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Handheld/Mobile Devices PMIC 28-QFN (4x5)"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3556EUFD-PBF/1840049"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "5fadcb44-4826-4c96-b40d-4ffbe35a5a6d")
+		)
+		(pin "17"
+			(uuid "1ad52aab-e338-4ab9-aa5e-1e7714c2f19e")
+		)
+		(pin "13"
+			(uuid "f410504b-07ec-4ffd-851f-f68057caa957")
+		)
+		(pin "16"
+			(uuid "322c353e-1e91-4eb3-86dc-7a6a3508d209")
+		)
+		(pin "26"
+			(uuid "635cd629-e016-4944-a7f3-c6f298aa7278")
+		)
+		(pin "27"
+			(uuid "5b61a954-4a62-448a-8a33-02a5d47259b6")
+		)
+		(pin "8"
+			(uuid "fe8bfbf9-1eb5-4b23-aaf0-74b218b129b1")
+		)
+		(pin "28"
+			(uuid "254a017e-6576-4649-b97b-044103a1546a")
+		)
+		(pin "6"
+			(uuid "1f2f0a04-cba5-43cf-ad97-f4cea869a680")
+		)
+		(pin "7"
+			(uuid "09ceaa91-9c88-449c-b211-49432ec7b12a")
+		)
+		(pin "23"
+			(uuid "0f77feb5-90ec-4c5e-9cf2-5b1882f3ea1e")
+		)
+		(pin "14"
+			(uuid "16a765d1-25aa-48f8-9051-046c278bffc5")
+		)
+		(pin "24"
+			(uuid "923fc8a8-b8b4-44b2-afb0-dda3c47153dc")
+		)
+		(pin "5"
+			(uuid "8a66f13d-badf-4d65-9291-54d7add3037d")
+		)
+		(pin "9"
+			(uuid "d94abc04-dbf2-49e7-b6d2-6031ecce6e97")
+		)
+		(pin "10"
+			(uuid "66cd9855-0523-4eef-8cb8-3e8b2444a55d")
+		)
+		(pin "1"
+			(uuid "22bdfaae-a228-40c2-b1f5-8b099a4e1246")
+		)
+		(pin "11"
+			(uuid "303737b6-65df-4a2f-b57a-06862ef40c1c")
+		)
+		(pin "2"
+			(uuid "0f634073-1c28-4945-a62b-f4f4a92c84f4")
+		)
+		(pin "20"
+			(uuid "294032ac-fd9c-46bb-a09b-12aa308f4ffd")
+		)
+		(pin "4"
+			(uuid "ec1b689a-730d-4853-be30-0278f9c192ed")
+		)
+		(pin "19"
+			(uuid "ea43e3a8-4ed2-42da-9f25-c8bbede93441")
+		)
+		(pin "3"
+			(uuid "6f6ca901-b447-4d76-ad0f-59b0ff5e4193")
+		)
+		(pin "29"
+			(uuid "acd7c972-fe5b-4e7f-a888-79761ab25d4d")
+		)
+		(pin "15"
+			(uuid "d236b29f-2e54-41fc-b633-9317f0419289")
+		)
+		(pin "12"
+			(uuid "12144e0a-41a7-44ef-94f9-bf7fdec30af2")
+		)
+		(pin "25"
+			(uuid "e90162c8-652c-4760-9ecc-55758bb9beef")
+		)
+		(pin "22"
+			(uuid "827eaf2b-7fc4-43a7-8b06-d6c73778f656")
+		)
+		(pin "21"
+			(uuid "3e030be6-0c9f-4fcc-a86e-428342972e2f")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/44136480-59be-49b2-8c76-b704f42332b0"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+)
