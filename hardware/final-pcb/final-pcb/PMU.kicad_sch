@@ -5,6 +5,387 @@
 	(uuid "e2d78ada-a6a6-48e7-a139-8dd69ce06e1e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "hands-emg-lib:10118194-0001LF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "10118194-0001LF"
+				(at -7.62 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "hands-emg-lib:10118194-0001LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Procurement" "https://www.digikey.com/en/products/detail/amphenol-cs-fci/10118194-0001LF/2785389"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10118194-0001LF_0_0"
+				(rectangle
+					(start -7.62 -22.86)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "ID"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "SHIELD__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "SHIELD__2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "SHIELD__3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 5.08)
+					(name "SHIELD__4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -20.32 0)
+					(length 5.08)
+					(name "SHIELD__5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "hands-emg-lib:GNDD"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "hands-emg-lib:LTC3556EUFD-PBF"
 			(pin_names
 				(offset 0.254)
@@ -716,6 +1097,50 @@
 			)
 		)
 	)
+	(junction
+		(at 241.3 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25b3a4cb-c011-40ba-8cee-a1fc0e97058d")
+	)
+	(junction
+		(at 241.3 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25c68fbe-61c4-4fcf-bac5-18728b970be8")
+	)
+	(junction
+		(at 241.3 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c0cc51-6aa1-4509-8a91-0d6573c177f0")
+	)
+	(junction
+		(at 241.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7210c7b7-7546-4198-a13d-0f29999bbf38")
+	)
+	(junction
+		(at 241.3 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a56bd59-dcaa-4825-b207-366ca2d656ea")
+	)
+	(no_connect
+		(at 241.3 58.42)
+		(uuid "797c3089-d7ec-4bb6-88b8-20f80116624b")
+	)
+	(wire
+		(pts
+			(xy 241.3 48.26) (xy 248.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043d1fdb-e2bd-4ef2-ab7f-fb23ef29bfff")
+	)
 	(polyline
 		(pts
 			(xy 228.6 127) (xy 228.6 165.1)
@@ -725,6 +1150,116 @@
 			(type default)
 		)
 		(uuid "0bccaeb7-e28c-4123-b78c-ebd320463ccb")
+	)
+	(wire
+		(pts
+			(xy 241.3 48.26) (xy 241.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ca0f55-76fe-40c0-93d8-5d41a9ad07c6")
+	)
+	(wire
+		(pts
+			(xy 241.3 53.34) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19288024-e493-4e9a-b13a-c0279f314b3a")
+	)
+	(polyline
+		(pts
+			(xy 215.9 12.7) (xy 215.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed039e3-0335-436f-8b22-b33883ce98b1")
+	)
+	(wire
+		(pts
+			(xy 254 144.78) (xy 266.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f21ef98-0aa5-4b52-bdaf-3bf4b7a052d8")
+	)
+	(wire
+		(pts
+			(xy 241.3 38.1) (xy 248.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355303a9-2e3c-4844-aadc-70255b60fa97")
+	)
+	(wire
+		(pts
+			(xy 241.3 35.56) (xy 248.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4101344b-b542-4aa3-bd8c-400e98177857")
+	)
+	(wire
+		(pts
+			(xy 254 147.32) (xy 266.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d8c4cf-ef6f-4751-909b-e46eafb09696")
+	)
+	(wire
+		(pts
+			(xy 241.3 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6a8f09-3dca-4c13-8702-eeb630d55845")
+	)
+	(wire
+		(pts
+			(xy 248.92 43.18) (xy 241.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540a9b45-4569-44e3-8763-12e7908e0986")
+	)
+	(polyline
+		(pts
+			(xy 284.48 67.31) (xy 215.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1ee558-08ef-415c-8aed-413137b97bd3")
+	)
+	(wire
+		(pts
+			(xy 241.3 55.88) (xy 248.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad25363-5f53-4694-87db-be611d00341d")
 	)
 	(polyline
 		(pts
@@ -738,6 +1273,36 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 27.94) (xy 248.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eabf208-8ed9-4e5d-8291-30cc714b2b2f")
+	)
+	(wire
+		(pts
+			(xy 241.3 53.34) (xy 248.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a01c0b2-c076-4979-9a13-b10d1ef1fa93")
+	)
+	(wire
+		(pts
+			(xy 241.3 45.72) (xy 241.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c84fca4-da92-4dc8-95fb-84244e253e8f")
+	)
+	(wire
+		(pts
 			(xy 254 152.4) (xy 266.7 152.4)
 		)
 		(stroke
@@ -745,6 +1310,56 @@
 			(type default)
 		)
 		(uuid "a09f8921-c1a4-465c-90bc-9c8d2101fc28")
+	)
+	(wire
+		(pts
+			(xy 241.3 30.48) (xy 248.92 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7679632-5950-44e1-925d-8b5640fe6d2e")
+	)
+	(wire
+		(pts
+			(xy 241.3 45.72) (xy 248.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7737c89-ed36-42f5-bf52-4f682811cd4b")
+	)
+	(wire
+		(pts
+			(xy 241.3 50.8) (xy 241.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d330c0ae-baca-43e7-894b-7ff332a812d3")
+	)
+	(wire
+		(pts
+			(xy 241.3 43.18) (xy 241.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1d2885-af4b-41bd-adc8-491bdab1e0fd")
+	)
+	(wire
+		(pts
+			(xy 241.3 55.88) (xy 241.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c2fa1a-3568-48fd-be0b-2390d8ebf241")
 	)
 	(wire
 		(pts
@@ -756,6 +1371,16 @@
 		)
 		(uuid "ec0f88c8-66a0-4a63-acc6-abfc0bdb233d")
 	)
+	(wire
+		(pts
+			(xy 241.3 33.02) (xy 248.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd39e180-8025-4bbd-ac9b-0843a7d9b015")
+	)
 	(text "Module Connections"
 		(exclude_from_sim no)
 		(at 255.016 132.08 0)
@@ -765,6 +1390,16 @@
 			)
 		)
 		(uuid "092f6a44-34d1-43a7-bf88-465f6688fbdb")
+	)
+	(text "USB Micro-B Connector"
+		(exclude_from_sim no)
+		(at 247.65 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "139a16c7-0a12-4634-9d2b-632f97f3bea2")
 	)
 	(label "I2C_SDA"
 		(at 254 152.4 0)
@@ -777,6 +1412,28 @@
 		)
 		(uuid "03c28398-1527-444f-8ba6-f68006de7133")
 	)
+	(label "USB_DP"
+		(at 241.3 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e34e4f4-c168-4f60-b124-7fa55fa0841f")
+	)
+	(label "USB_DN"
+		(at 241.3 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "412ea255-3651-4fca-a853-920e072e8a0d")
+	)
 	(label "I2C_SCL"
 		(at 254 154.94 0)
 		(fields_autoplaced yes)
@@ -787,6 +1444,28 @@
 			(justify left bottom)
 		)
 		(uuid "47664d9d-6a1b-40ed-8656-64d3817886ec")
+	)
+	(label "USB_DN"
+		(at 254 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63677864-c8c7-4e15-a3ed-defe892df3bd")
+	)
+	(label "USB_DP"
+		(at 254 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e07d868-e239-4957-b96f-130fe3777d94")
 	)
 	(global_label "I2C_SCL"
 		(shape output)
@@ -811,6 +1490,29 @@
 			)
 		)
 	)
+	(global_label "USB_DP"
+		(shape bidirectional)
+		(at 266.7 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 132 1)
+			)
+			(justify left)
+		)
+		(uuid "609682b5-b903-417c-bfef-e2365ed279be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0028 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
 		(at 266.7 152.4 0)
@@ -825,6 +1527,29 @@
 		(uuid "c63752eb-b268-4f2f-956f-551973e48270")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.3052 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DN"
+		(shape bidirectional)
+		(at 266.7 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 132 1)
+			)
+			(justify left)
+		)
+		(uuid "d7d6119c-b4b3-4917-b0b2-3bb6eb4905af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0633 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,6 +1720,73 @@
 		)
 	)
 	(symbol
+		(lib_id "hands-emg-lib:GNDD")
+		(at 241.3 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56fa7a91-7059-4270-8c14-44ba64d0b2bd")
+		(property "Reference" "#PWR02"
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 237.49 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 241.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1da1b749-478c-4f11-aeb1-cf1719d12c57")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/44136480-59be-49b2-8c76-b704f42332b0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hands-emg-lib:LTC3556EUFD-PBF")
 		(at 38.1 114.3 0)
 		(unit 2)
@@ -1151,6 +1943,113 @@
 				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/44136480-59be-49b2-8c76-b704f42332b0"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:10118194-0001LF")
+		(at 261.62 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9055abc8-7de6-46b2-b518-9ff053ab29d0")
+		(property "Reference" "J1"
+			(at 270.51 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10118194-0001LF"
+			(at 270.51 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:10118194-0001LF"
+			(at 261.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
+			(at 261.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
+			(at 261.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/amphenol-cs-fci/10118194-0001LF/2785389"
+			(at 261.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ff2ffc06-c488-471f-8b9c-5c433ce23a8d")
+		)
+		(pin "SH3"
+			(uuid "8daf3b0c-b35c-4881-8f38-93e2c41afd87")
+		)
+		(pin "2"
+			(uuid "08341abe-fdec-48a9-a5c3-4f4e9d217ccc")
+		)
+		(pin "SH2"
+			(uuid "d0fc629a-8533-464b-9099-680250843a8e")
+		)
+		(pin "SH4"
+			(uuid "e33f1e8e-dcbe-456f-9502-a38b6414ab55")
+		)
+		(pin "1"
+			(uuid "bc29c7e5-340a-4dc1-a46e-4dbac5df0681")
+		)
+		(pin "3"
+			(uuid "ed5eba48-5ee0-4679-8f48-9306964ae625")
+		)
+		(pin "5"
+			(uuid "0bc0a098-ebdd-4132-bd96-c5c22eab295d")
+		)
+		(pin "SH6"
+			(uuid "6ca9aef8-1ede-4ca6-89df-d00dd8216358")
+		)
+		(pin "SH1"
+			(uuid "ea7cf9cd-cc43-4cf6-b463-4151450835f1")
+		)
+		(pin "SH5"
+			(uuid "77c589cd-6f32-4202-9bd2-415b7842da1b")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/44136480-59be-49b2-8c76-b704f42332b0"
+					(reference "J1")
+					(unit 1)
 				)
 			)
 		)
