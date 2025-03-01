@@ -4,7 +4,134 @@
 	(generator_version "8.0")
 	(uuid "5dd159c1-b466-43fa-b9af-84205ab87974")
 	(paper "A3")
+	(title_block
+		(title "Microcontroller")
+		(date "2025-03-01")
+		(company "San Diego State University")
+		(comment 1 "Computer Engineer: Noah Marosok, Blake Pearson")
+		(comment 2 "Electrical Engineer: Kelly Hubbard, Jayden Sumbillo, Kirk Young")
+	)
 	(lib_symbols
+		(symbol "hands-emg-lib:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "hands-emg-lib:GNDD"
 			(power)
 			(pin_numbers hide)
@@ -103,6 +230,230 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "hands-emg-lib:KEYSTONE_5015"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KEYSTONE_5015"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "hands-emg-lib:KEYSTONE_5015"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Procurement" "https://www.digikey.com/en/products/detail/keystone-electronics/5015/278885"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point testpoint"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KEYSTONE_5015_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "hands-emg-lib:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8599,6 +8950,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 228.6) (xy 274.32 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b06dff3-9956-47ec-835d-7b31ad718167")
+	)
+	(wire
+		(pts
+			(xy 261.62 254) (xy 274.32 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd799d4-0d7c-440f-bc87-67e92a5328a1")
+	)
+	(wire
+		(pts
 			(xy 203.2 86.36) (xy 203.2 88.9)
 		)
 		(stroke
@@ -8619,6 +8990,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 224.79) (xy 311.15 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148abede-e776-41da-8a17-b283eb722ac0")
+	)
+	(wire
+		(pts
 			(xy 377.19 227.33) (xy 389.89 227.33)
 		)
 		(stroke
@@ -8636,6 +9017,16 @@
 			(type default)
 		)
 		(uuid "15c6846e-3eda-4495-ba37-693e8254e177")
+	)
+	(polyline
+		(pts
+			(xy 299.72 214.63) (xy 254 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162274e0-74a1-4f3c-926f-114dfc372b60")
 	)
 	(wire
 		(pts
@@ -8659,6 +9050,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 233.68) (xy 274.32 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d045b0-0232-4e73-b33e-ccc04a3393ae")
+	)
+	(wire
+		(pts
 			(xy 203.2 111.76) (xy 203.2 118.11)
 		)
 		(stroke
@@ -8676,6 +9077,46 @@
 			(type default)
 		)
 		(uuid "29a6e3cf-aa1c-4c9a-8ac9-e2c30af3e418")
+	)
+	(wire
+		(pts
+			(xy 261.62 243.84) (xy 274.32 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7d75e8-2a3b-48d9-ba45-c6ab897847ad")
+	)
+	(polyline
+		(pts
+			(xy 351.79 214.63) (xy 299.72 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fcae22a-30c1-4b23-a5f8-aad432c9800c")
+	)
+	(polyline
+		(pts
+			(xy 254 214.63) (xy 254 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36393ed1-57d6-4a05-a1a9-5cde8c3c5bbf")
+	)
+	(wire
+		(pts
+			(xy 311.15 237.49) (xy 311.15 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3beb4481-f5ef-4040-b743-929c8a990147")
 	)
 	(wire
 		(pts
@@ -8697,6 +9138,16 @@
 		)
 		(uuid "582c71ff-7884-4f67-a9cc-2339720db9e0")
 	)
+	(wire
+		(pts
+			(xy 336.55 224.79) (xy 336.55 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606fcbf3-71c3-45a4-bc7c-bd04f4c4ef04")
+	)
 	(polyline
 		(pts
 			(xy 407.67 214.63) (xy 351.79 214.63)
@@ -8706,6 +9157,16 @@
 			(type default)
 		)
 		(uuid "62589efe-a105-4937-8a5f-bcd6425b10ad")
+	)
+	(wire
+		(pts
+			(xy 261.62 238.76) (xy 274.32 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6392cc4a-32a5-4279-808a-b590d5b4c714")
 	)
 	(wire
 		(pts
@@ -8719,6 +9180,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 224.79) (xy 323.85 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9d2a5c-a595-46ec-be89-d9ea409c989a")
+	)
+	(wire
+		(pts
 			(xy 203.2 109.22) (xy 215.9 109.22)
 		)
 		(stroke
@@ -8726,6 +9197,16 @@
 			(type default)
 		)
 		(uuid "7d1a9dd0-eb91-428d-bb6e-6d08a1b2e426")
+	)
+	(wire
+		(pts
+			(xy 261.62 248.92) (xy 274.32 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8499f9a7-f191-4fde-b1e8-c5fbc2da336c")
 	)
 	(wire
 		(pts
@@ -8766,6 +9247,16 @@
 			(type default)
 		)
 		(uuid "a5bc5c44-3277-4afd-9d86-2c80945db442")
+	)
+	(polyline
+		(pts
+			(xy 299.72 214.63) (xy 299.72 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6937afb-ee73-40e8-a4be-e87365fc4c3d")
 	)
 	(wire
 		(pts
@@ -8849,6 +9340,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 237.49) (xy 323.85 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c5ef0b-b040-4ced-bfba-bb04c4be581b")
+	)
+	(wire
+		(pts
 			(xy 203.2 106.68) (xy 215.9 106.68)
 		)
 		(stroke
@@ -8889,6 +9390,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 237.49) (xy 336.55 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6c933a-7a71-4096-a265-d4cfd963350d")
+	)
+	(wire
+		(pts
 			(xy 377.19 247.65) (xy 389.89 247.65)
 		)
 		(stroke
@@ -8917,6 +9428,16 @@
 		)
 		(uuid "fe22c008-c483-49f7-a3f7-a3eb91e7c251")
 	)
+	(text "Communication Line Pull-Ups"
+		(exclude_from_sim no)
+		(at 323.596 216.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e6ae8e8-018f-46b8-be56-50b44cb37139")
+	)
 	(text "Module Connections"
 		(exclude_from_sim no)
 		(at 378.46 219.964 0)
@@ -8926,6 +9447,60 @@
 			)
 		)
 		(uuid "34f38dae-84ea-4c45-939d-d6cc7a7395f1")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 275.336 218.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebba50c8-2918-4918-b7c9-e2244093487d")
+	)
+	(label "SPI_SCK"
+		(at 261.62 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1efaaf79-eec8-4ea3-aa7f-5ec9d369268c")
+	)
+	(label "SPI_MOSI"
+		(at 261.62 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20398d88-23b4-410e-9355-f84f8ebf39a9")
+	)
+	(label "SPI_NSS"
+		(at 261.62 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a7a2b77-6d23-4cd3-94dd-9d8ad00ea5ee")
+	)
+	(label "I2C_SCK"
+		(at 323.85 247.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e9ab7ae-8c30-4038-9c14-b342d058ab44")
 	)
 	(label "SPI_MISO"
 		(at 377.19 237.49 0)
@@ -8993,6 +9568,50 @@
 		)
 		(uuid "893906e6-257a-4863-aa17-940fbf990751")
 	)
+	(label "I2C_SCL"
+		(at 261.62 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92d9b52a-2cc8-40ff-b0be-282f935d4da5")
+	)
+	(label "SPI_NSS"
+		(at 311.15 247.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99da9509-5a11-4c59-93ff-1e7e0a968c64")
+	)
+	(label "I2C_SDA"
+		(at 336.55 247.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cadbd98c-fa04-4029-a723-46735dbf3da3")
+	)
+	(label "SPI_MISO"
+		(at 261.62 233.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd89b314-1307-44fd-9006-9daa040d5e8b")
+	)
 	(label "SPI_SCK"
 		(at 377.19 242.57 0)
 		(fields_autoplaced yes)
@@ -9014,6 +9633,17 @@
 			(justify left bottom)
 		)
 		(uuid "f3629ec7-b017-4ba1-8ede-daf7b3b80881")
+	)
+	(label "I2C_SDA"
+		(at 261.62 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3d49503-e431-4ffa-b115-4698f02161f4")
 	)
 	(global_label "SPI_SCK"
 		(shape output)
@@ -9196,6 +9826,76 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:R")
+		(at 336.55 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a53883f-6d6f-4ba9-9fc6-50e42a22a840")
+		(property "Reference" "R3"
+			(at 339.09 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 339.09 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.772 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 336.55 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 336.55 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9033d472-c9cb-4cb1-8e59-62e68345919f")
+		)
+		(pin "2"
+			(uuid "3c290e8b-f4ce-4885-b91b-d985eef55c0c")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "R3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9771,6 +10471,230 @@
 		)
 	)
 	(symbol
+		(lib_id "hands-emg-lib:R")
+		(at 323.85 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a2c810-a95c-4456-990e-499aab0aff73")
+		(property "Reference" "R2"
+			(at 326.39 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 326.39 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.072 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 323.85 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9033d472-c9cb-4cb1-8e59-62e68345919f")
+		)
+		(pin "2"
+			(uuid "3c290e8b-f4ce-4885-b91b-d985eef55c0c")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:KEYSTONE_5015")
+		(at 279.4 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c734c93-78a6-43e7-9936-b39ad3569690")
+		(property "Reference" "TP6"
+			(at 281.94 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KEYSTONE_5015"
+			(at 281.94 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:KEYSTONE_5015"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/keystone-electronics/5015/278885"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "2bc81f27-118c-4cd6-9851-d8364c2ea372")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:KEYSTONE_5015")
+		(at 279.4 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd35641-345b-4076-998b-4c1e900d62c2")
+		(property "Reference" "TP2"
+			(at 281.94 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KEYSTONE_5015"
+			(at 281.94 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:KEYSTONE_5015"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/keystone-electronics/5015/278885"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "2bc81f27-118c-4cd6-9851-d8364c2ea372")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hands-emg-lib:STM32L496ZGT6")
 		(at 38.1 38.1 0)
 		(unit 1)
@@ -10270,6 +11194,280 @@
 			(project ""
 				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:KEYSTONE_5015")
+		(at 279.4 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73bb5bd0-d598-4c3d-81d4-c4dbcb916760")
+		(property "Reference" "TP1"
+			(at 281.94 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KEYSTONE_5015"
+			(at 281.94 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:KEYSTONE_5015"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/keystone-electronics/5015/278885"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "2bc81f27-118c-4cd6-9851-d8364c2ea372")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:+3V3")
+		(at 336.55 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80599d00-d5df-46df-bd6a-b48dd54c6035")
+		(property "Reference" "#PWR05"
+			(at 336.55 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 336.55 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 336.55 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86bd7bcd-fae8-4474-bd96-72ccb688fe42")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:+3V3")
+		(at 311.15 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "809ee0b1-be27-4df8-a911-62ecc3608cc6")
+		(property "Reference" "#PWR03"
+			(at 311.15 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 311.15 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 311.15 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86bd7bcd-fae8-4474-bd96-72ccb688fe42")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:+3V3")
+		(at 323.85 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc85f8f2-b5fd-42dd-bb6b-1d4a2869dd03")
+		(property "Reference" "#PWR04"
+			(at 323.85 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 323.85 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 323.85 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86bd7bcd-fae8-4474-bd96-72ccb688fe42")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10777,6 +11975,307 @@
 				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:KEYSTONE_5015")
+		(at 279.4 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5208d08-2dc7-471d-807b-bee57cfc9603")
+		(property "Reference" "TP3"
+			(at 281.94 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KEYSTONE_5015"
+			(at 281.94 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:KEYSTONE_5015"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/keystone-electronics/5015/278885"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "2bc81f27-118c-4cd6-9851-d8364c2ea372")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:KEYSTONE_5015")
+		(at 279.4 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d50b07f5-77a5-450d-8d5a-1a0c846cb075")
+		(property "Reference" "TP4"
+			(at 281.94 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KEYSTONE_5015"
+			(at 281.94 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:KEYSTONE_5015"
+			(at 279.4 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+			(at 279.4 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+			(at 279.4 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/keystone-electronics/5015/278885"
+			(at 279.4 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "2bc81f27-118c-4cd6-9851-d8364c2ea372")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:KEYSTONE_5015")
+		(at 279.4 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fafa7f42-dc31-4a5a-9845-1ce38f20a1fd")
+		(property "Reference" "TP5"
+			(at 281.94 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KEYSTONE_5015"
+			(at 281.94 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hands-emg-lib:KEYSTONE_5015"
+			(at 279.4 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+			(at 279.4 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+			(at 279.4 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "https://www.digikey.com/en/products/detail/keystone-electronics/5015/278885"
+			(at 279.4 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "2bc81f27-118c-4cd6-9851-d8364c2ea372")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hands-emg-lib:R")
+		(at 311.15 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0d0656-b45f-4207-a059-9679d4cf2e6f")
+		(property "Reference" "R1"
+			(at 313.69 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 313.69 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.372 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 311.15 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9033d472-c9cb-4cb1-8e59-62e68345919f")
+		)
+		(pin "2"
+			(uuid "3c290e8b-f4ce-4885-b91b-d985eef55c0c")
+		)
+		(instances
+			(project ""
+				(path "/81e74fe3-7398-4736-8e9f-7ccf36dc8882/247be4d1-54fd-4b2f-b6e9-48e67aa34336"
+					(reference "R1")
+					(unit 1)
 				)
 			)
 		)

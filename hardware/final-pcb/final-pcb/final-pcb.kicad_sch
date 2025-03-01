@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "81e74fe3-7398-4736-8e9f-7ccf36dc8882")
 	(paper "A4")
+	(title_block
+		(title "HANDS-EMG")
+		(date "2025-03-01")
+		(company "San Diego State University")
+		(comment 1 "Computer Engineer: Noah Marosok, Blake Pearson")
+		(comment 2 "Electrical Engineer: Kelly Hubbard, Jayden Sumbillo, Kirk Young")
+	)
 	(lib_symbols)
 	(sheet
 		(at 88.9 25.4)

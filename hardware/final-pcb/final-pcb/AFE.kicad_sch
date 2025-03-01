@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "b8e298c9-ae6f-496e-aa02-15e63cd1f47d")
 	(paper "A3")
+	(title_block
+		(title "EMG Analog Front End")
+		(date "2025-03-01")
+		(company "San Diego State University")
+		(comment 1 "Computer Engineer: Noah Marosok, Blake Pearson")
+		(comment 2 "Electrical Engineer: Kelly Hubbard, Jayden Sumbillo, Kirk Young")
+	)
 	(lib_symbols
 		(symbol "hands-emg-lib:ADS1299-4PAGR"
 			(pin_names
