@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hands-emg-lib")(type "KiCad")(uri "${KIPRJMOD}/hands-emg-lib.kicad_sym")(options "")(descr ""))
+)

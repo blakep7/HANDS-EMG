@@ -1,0 +1,163 @@
+(footprint "KEYSTONE_5015"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.21 -2.775 0)
+		(layer "F.SilkS")
+		(uuid "9e998efc-1188-425e-86ba-008d15b5c979")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_5015"
+		(at 6.29 2.775 0)
+		(layer "F.Fab")
+		(uuid "772a62e9-4fa0-4737-b459-4cd6582f8c5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b705a78a-b19f-414d-9473-226859e612df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9f06ac3-4a65-4518-8a3d-5de348981e8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40809894-63b7-44f3-b208-52f52438db11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.965 -1.14)
+		(end -1.965 1.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8806e8a0-3270-4b00-9708-573a6464c66b")
+	)
+	(fp_line
+		(start -1.965 1.14)
+		(end 1.965 1.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a68646e-2be6-4084-8a9f-b2265083e97c")
+	)
+	(fp_line
+		(start 1.965 -1.14)
+		(end -1.965 -1.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37193235-e945-44ab-85ab-a8998f2bd5dd")
+	)
+	(fp_line
+		(start 1.965 1.14)
+		(end 1.965 -1.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ef81d36-4d91-4158-85c3-ce8115c8dbd2")
+	)
+	(fp_line
+		(start -1.335 -0.51)
+		(end 1.335 -0.51)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9f78252-ef70-4184-9177-5411a9c4a8df")
+	)
+	(fp_line
+		(start -1.335 0.51)
+		(end -1.335 -0.51)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48b03674-16a6-4680-b74d-f5e501abe688")
+	)
+	(fp_line
+		(start 1.335 -0.51)
+		(end 1.335 0.51)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4046c7f1-2034-4bcd-b73e-7eb845d8ca94")
+	)
+	(fp_line
+		(start 1.335 0.51)
+		(end -1.335 0.51)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69b82007-eae0-4603-b409-a71b7856caf7")
+	)
+	(pad "TP" smd rect
+		(at 0 0)
+		(size 3.43 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "fa69492c-6bd8-4b00-a5ce-bf9b6fb8ae97")
+	)
+	(model "${KIPRJMOD}/hands-emg-lib.3dshapes/KEYSTONE_5015.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
