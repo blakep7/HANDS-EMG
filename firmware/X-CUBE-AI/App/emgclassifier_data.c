@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    emgclassifier_data.c
   * @author  AST Embedded Analytics Research Platform
-  * @date    2025-02-27T23:47:17-0800
+  * @date    2025-03-03T17:56:44-0800
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * @attention
@@ -21,13 +21,13 @@
 AI_API_DECLARE_BEGIN
 ai_buffer g_emgclassifier_data_map_activations[AI_EMGCLASSIFIER_DATA_ACTIVATIONS_COUNT] = {
   AI_BUFFER_INIT(AI_FLAG_NONE,  AI_BUFFER_FORMAT_U8,
-    AI_BUFFER_SHAPE_INIT(AI_SHAPE_BCWH, 4, 1, 448, 1, 1),
-    448, NULL, NULL),    /* heap_overlay_pool */
+    AI_BUFFER_SHAPE_INIT(AI_SHAPE_BCWH, 4, 1, 464, 1, 1),
+    464, NULL, NULL),    /* heap_overlay_pool */
   };
 ai_buffer g_emgclassifier_data_map_weights[AI_EMGCLASSIFIER_DATA_WEIGHTS_COUNT] = {
   AI_BUFFER_INIT(AI_FLAG_NONE,  AI_BUFFER_FORMAT_U8,
-    AI_BUFFER_SHAPE_INIT(AI_SHAPE_BCWH, 4, 1, 24200, 1, 1),
-    24200, NULL, s_emgclassifier_weights_array_u64),   /* weights_array */
+    AI_BUFFER_SHAPE_INIT(AI_SHAPE_BCWH, 4, 1, 26772, 1, 1),
+    26772, NULL, s_emgclassifier_weights_array_u64),   /* weights_array */
   };
 
 

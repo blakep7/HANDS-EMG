@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    emgclassifier.h
   * @author  AST Embedded Analytics Research Platform
-  * @date    2025-02-27T23:47:17-0800
+  * @date    2025-03-03T17:56:44-0800
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * @attention
@@ -23,7 +23,7 @@
 
 /******************************************************************************/
 #define AI_EMGCLASSIFIER_MODEL_NAME          "emgclassifier"
-#define AI_EMGCLASSIFIER_ORIGIN_MODEL_NAME   "model"
+#define AI_EMGCLASSIFIER_ORIGIN_MODEL_NAME   "model_batch_size_256"
 
 /******************************************************************************/
 #define AI_EMGCLASSIFIER_ACTIVATIONS_ALIGNMENT   (4)
@@ -44,9 +44,9 @@ AI_DEPRECATED
   AI_EMGCLASSIFIER_IN_1_SIZE_BYTES, \
 }
 #define AI_EMGCLASSIFIER_IN_1_FORMAT      (AI_BUFFER_FORMAT_FLOAT)
-#define AI_EMGCLASSIFIER_IN_1_CHANNEL     (48)
-#define AI_EMGCLASSIFIER_IN_1_SIZE        (48)
-#define AI_EMGCLASSIFIER_IN_1_SIZE_BYTES  (192)
+#define AI_EMGCLASSIFIER_IN_1_CHANNEL     (52)
+#define AI_EMGCLASSIFIER_IN_1_SIZE        (52)
+#define AI_EMGCLASSIFIER_IN_1_SIZE_BYTES  (208)
 
 /******************************************************************************/
 #define AI_EMGCLASSIFIER_OUT_NUM       (1)
@@ -62,9 +62,9 @@ AI_DEPRECATED
   AI_EMGCLASSIFIER_OUT_1_SIZE_BYTES, \
 }
 #define AI_EMGCLASSIFIER_OUT_1_FORMAT      (AI_BUFFER_FORMAT_FLOAT)
-#define AI_EMGCLASSIFIER_OUT_1_CHANNEL     (18)
-#define AI_EMGCLASSIFIER_OUT_1_SIZE        (18)
-#define AI_EMGCLASSIFIER_OUT_1_SIZE_BYTES  (72)
+#define AI_EMGCLASSIFIER_OUT_1_CHANNEL     (5)
+#define AI_EMGCLASSIFIER_OUT_1_SIZE        (5)
+#define AI_EMGCLASSIFIER_OUT_1_SIZE_BYTES  (20)
 
 /******************************************************************************/
 #define AI_EMGCLASSIFIER_N_NODES (8)
