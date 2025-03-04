@@ -105,10 +105,7 @@ void calculate_features(const int16_t *data, float *features) {
     dvarv /= (FRAME_SIZE - 1);
     dasdv = sqrtf(dvarv);
 
-    	features[0] = iemg;
-        features[1] = mav;
-        features[2] = ssi;
-        features[3] = rms;
+    	features[3] = rms;
         features[4] = variance;
         features[5] = myop;
         features[6] = wl;
@@ -117,5 +114,4 @@ void calculate_features(const int16_t *data, float *features) {
         features[9] = dvarv;
         features[10] = dasdv;
         features[11] = wamp;
-        features[12] = mean;
     }
