@@ -40,12 +40,21 @@
  */
 
 
-#include <math.h>
 #include <stdint.h>
+#include <math.h>
+#include <stdio.h>
 
 #define FRAME_SIZE 400
 
-void calculate_features(const int16_t *data, float *features) {
+//convert 24bit ADC (stored in int32_t) to int16_t
+void convert_adc_data(const int32_t *adc_raw, int16_t *adc_processed) {
+    for (int i = 0; i < FRAME_SIZE; i++) {
+        adc_processed[i] = (int16_t)(adc_raw[i] >> 8);  // Truncate 24-bit to 16-bit
+    }
+}
+
+// feature extraction
+void calculate_features(const int16_t *data, int16_t *features) {
     float iemg = 0.0f, mav = 0.0f, ssi = 0.0f, rms = 0.0f;
     float variance = 0.0f, myop = 0.0f, wl = 0.0f, damv = 0.0f;
     float m2 = 0.0f, dvarv = 0.0f, dasdv = 0.0f, wamp = 0.0f;
@@ -53,24 +62,21 @@ void calculate_features(const int16_t *data, float *features) {
     float mean = 0.0f;
     float prev_sample = (float)data[0];
 
-    //calculate mean
+
     for (int i = 0; i < FRAME_SIZE; i++) {
         mean += (float)data[i];
     }
     mean /= FRAME_SIZE;
 
-    // variance, and std
+
     float sum_sq_diff = 0.0f;
     for (int i = 0; i < FRAME_SIZE; i++) {
         float diff = (float)data[i] - mean;
         sum_sq_diff += diff * diff;
     }
     float std_dev = sqrtf(sum_sq_diff / FRAME_SIZE);
-
-    // threshold for MYOP and WAMP. Should match whatever MATLAB script generates (2*std(data))
     float threshold = 0.3f * std_dev;
 
-    // compute features
     for (int i = 0; i < FRAME_SIZE; i++) {
         float sample = (float)data[i];
 
@@ -100,22 +106,54 @@ void calculate_features(const int16_t *data, float *features) {
     mav /= FRAME_SIZE;
     rms = sqrtf(ssi / FRAME_SIZE);
     variance = sum_sq_diff / FRAME_SIZE;
-    myop = (myop / FRAME_SIZE);
+    myop = (myop / FRAME_SIZE) * 100.0f;
     damv /= (FRAME_SIZE - 1);
     dvarv /= (FRAME_SIZE - 1);
     dasdv = sqrtf(dvarv);
 
-    	features[0] = iemg;
-        features[1] = mav;
-        features[2] = ssi;
-        features[3] = rms;
-        features[4] = variance;
-        features[5] = myop;
-        features[6] = wl;
-        features[7] = damv;
-        features[8] = m2;
-        features[9] = dvarv;
-        features[10] = dasdv;
-        features[11] = wamp;
-        features[12] = mean;
+    // in16_t scaling for tflite cmopatibility
+    float scale_factor = 32767.0f;
+    features[0] = (int16_t)(iemg / scale_factor);
+    features[1] = (int16_t)(mav * scale_factor);
+    features[2] = (int16_t)(ssi / scale_factor);
+    features[3] = (int16_t)(rms * scale_factor);
+    features[4] = (int16_t)(variance * scale_factor);
+    features[5] = (int16_t)(myop * scale_factor);
+    features[6] = (int16_t)(wl / scale_factor);
+    features[7] = (int16_t)(damv * scale_factor);
+    features[8] = (int16_t)(m2 / scale_factor);
+    features[9] = (int16_t)(dvarv * scale_factor);
+    features[10] = (int16_t)(dasdv * scale_factor);
+    features[11] = (int16_t)(wamp * scale_factor);
+}
+
+
+
+//for testing!!
+int main() {
+    int32_t adc_raw[FRAME_SIZE];
+    int16_t adc_processed[FRAME_SIZE];
+    int16_t features[12];
+
+    FILE *file = fopen("emg_data_24bit_bin", "rb");
+        if (!file) {
+            printf("Error opening file\n");
+            return;
+        }
+    fread(adc_raw, sizeof(int32_t), FRAME_SIZE, file);
+    fclose(file);
+
+
+    convert_adc_data(adc_raw, adc_processed);
+
+
+    calculate_features(adc_processed, features);
+
+    printf("Computed Features:\n");
+    for (int i = 0; i < 12; i++) {
+        printf("Feature %d: %d\n", i, features[i]);
     }
+
+    return 0;
+}
+
