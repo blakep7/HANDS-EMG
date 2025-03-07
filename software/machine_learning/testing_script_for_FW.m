@@ -22,6 +22,15 @@ int24_data = min(max(int24_data, -2^23), 2^23 - 1);
 
 
 %export
-fid = fopen('emg_data_24bit.bin', 'wb');
-fwrite(fid, int24_data, 'int32');  
+hex_data = dec2hex(typecast(int32(int24_data), 'uint32')); % Convert to hex
+
+c_code = "const int32_t emg_data[400] = {\n";
+for i = 1:length(int24_data)
+    c_code = c_code + "    0x" + hex_data(i, :) + ",\n";
+end
+c_code = c_code + "};\n";
+
+
+fid = fopen('emg_data_c_array.txt', 'w');
+fprintf(fid, '%s', c_code);
 fclose(fid);
