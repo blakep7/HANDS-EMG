@@ -1,6 +1,6 @@
 data = load('S1_E1_A1.mat'); 
 
-[windows, y_output] = window_data(data.emg, data.restimulus, data.rerepetition, winSize=400, winInc=20);
+[windows, y_output] = window_data(data.emg, data.restimulus, data.rerepetition, 400, 20);
 raw_signal = windows{1}(:,2);
 
 
