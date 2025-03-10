@@ -43,6 +43,7 @@
 #include <stdint.h>
 #include <math.h>
 #include <stdio.h>
+#include <feature_extraction.h>
 
 #define FRAME_SIZE 400
 
@@ -128,32 +129,4 @@ void calculate_features(const int16_t *data, int16_t *features) {
 }
 
 
-
-//for testing!!
-int main() {
-    int32_t adc_raw[FRAME_SIZE];
-    int16_t adc_processed[FRAME_SIZE];
-    int16_t features[12];
-
-    FILE *file = fopen("emg_data_24bit_bin", "rb");
-        if (!file) {
-            printf("Error opening file\n");
-            return;
-        }
-    fread(adc_raw, sizeof(int32_t), FRAME_SIZE, file);
-    fclose(file);
-
-
-    convert_adc_data(adc_raw, adc_processed);
-
-
-    calculate_features(adc_processed, features);
-
-    printf("Computed Features:\n");
-    for (int i = 0; i < 12; i++) {
-        printf("Feature %d: %d\n", i, features[i]);
-    }
-
-    return 0;
-}
 

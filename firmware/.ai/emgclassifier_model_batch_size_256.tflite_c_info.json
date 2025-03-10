@@ -470,44 +470,44 @@
   ],
   "environment": {
     "generated_model": {
-      "generated_time": "2025-03-03T17:56:44-0800",
+      "generated_time": "2025-03-07T17:30:34-0800",
       "model_files": [
         {
           "name": "emgclassifier_data_params.h",
-          "signature": "0xca7db293aba9dce6a8590d822dfbe6f4"
+          "signature": "0x705aec3efde8a4314dbd5c83f02514e8"
         },
         {
           "name": "emgclassifier_data_params.c",
-          "signature": "0xb913561130c5c77b35333935d8f29f49"
+          "signature": "0x9906869fac3e27b9ba90af3b92be96bc"
         },
         {
           "name": "emgclassifier_data.h",
-          "signature": "0x1753c1dcb72a01a15533af6f4c81ce0c"
+          "signature": "0xa77443536f324311892eb7f89171fd0c"
         },
         {
           "name": "emgclassifier_data.c",
-          "signature": "0x5002603cbd559aa3fbf4fcdd5a35105f"
+          "signature": "0x77a34a0e84d04653613ddc0738b8f3ba"
         },
         {
           "name": "emgclassifier_config.h",
-          "signature": "0x721d92edb275b587280ffca97e7c975e"
+          "signature": "0x65e8a6ca2d1d2ace1b5b77cc9e2b165d"
         },
         {
           "name": "emgclassifier.h",
-          "signature": "0x240369dac9e377d567ca99336a449124"
+          "signature": "0x99a05b6d258e3e11fc25427bf0dbaaad"
         },
         {
           "name": "emgclassifier.c",
-          "signature": "0xf6d1fb0549434a715c08b81c67fc8f21"
+          "signature": "0x48c6f479f716f09ddd66ff689ea789bc"
         }
       ],
       "name": "emgclassifier"
     },
-    "network_signature": "0x160ab72a7b317128",
+    "network_signature": "0x30468a2a0babc09e",
     "test_name": "",
     "tools": [
       {
-        "arguments": "generate --target stm32l4 --name emgclassifier -m C:/Users/lilmo/OneDrive/Desktop/SDSU/SDSU_2024-25/Senior Design/Senior-Design-Team-9/software/machine_learning/model_batch_size_256.tflite --compression none --verbosity 1 --workspace C:/Users/lilmo/AppData/Local/Temp/mxAI_workspace242704377179260012975225511093852945 --output C:/Users/lilmo/.stm32cubemx/emgclassifier_output",
+        "arguments": "generate --target stm32l4 --name emgclassifier -m C:/Users/lilmo/OneDrive/Desktop/SDSU/SDSU_2024-25/Senior Design/Senior-Design-Team-9/software/machine_learning/model_batch_size_256.tflite --compression none --verbosity 1 --workspace C:/Users/lilmo/AppData/Local/Temp/mxAI_workspace29633519924290011525244127750516860 --output C:/Users/lilmo/.stm32cubemx/emgclassifier_output",
         "environment": [
           "STATS_TYPE=X-CUBE-AI"
         ],

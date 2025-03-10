@@ -57,7 +57,7 @@
         }
     },
     "activations_alignment": 4,
-    "arguments": "generate --target stm32l4 --name emgclassifier -m C:/Users/lilmo/OneDrive/Desktop/SDSU/SDSU_2024-25/Senior Design/Senior-Design-Team-9/software/machine_learning/model_batch_size_256.tflite --compression none --verbosity 1 --workspace C:/Users/lilmo/AppData/Local/Temp/mxAI_workspace242704377179260012975225511093852945 --output C:/Users/lilmo/.stm32cubemx/emgclassifier_output",
+    "arguments": "generate --target stm32l4 --name emgclassifier -m C:/Users/lilmo/OneDrive/Desktop/SDSU/SDSU_2024-25/Senior Design/Senior-Design-Team-9/software/machine_learning/model_batch_size_256.tflite --compression none --verbosity 1 --workspace C:/Users/lilmo/AppData/Local/Temp/mxAI_workspace29633519924290011525244127750516860 --output C:/Users/lilmo/.stm32cubemx/emgclassifier_output",
     "c_activations_count": 1,
     "c_arrays": [
         {
@@ -751,7 +751,7 @@
         ]
     },
     "data_alignment": 4,
-    "date_time": "2025-03-03T17:56:44-0800",
+    "date_time": "2025-03-07T17:30:34-0800",
     "inputs": [
         "serving_default_keras_tensor0_output"
     ],

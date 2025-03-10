@@ -1,6 +1,6 @@
 ST Edge AI Core v2.0.0-20049
-Created date          : 2025-03-03 17:56:47
-Parameters            : generate --target stm32l4 --name emgclassifier -m C:/Users/lilmo/OneDrive/Desktop/SDSU/SDSU_2024-25/Senior Design/Senior-Design-Team-9/software/machine_learning/model_batch_size_256.tflite --compression none --verbosity 1 --workspace C:/Users/lilmo/AppData/Local/Temp/mxAI_workspace242704377179260012975225511093852945 --output C:/Users/lilmo/.stm32cubemx/emgclassifier_output
+Created date          : 2025-03-07 17:30:40
+Parameters            : generate --target stm32l4 --name emgclassifier -m C:/Users/lilmo/OneDrive/Desktop/SDSU/SDSU_2024-25/Senior Design/Senior-Design-Team-9/software/machine_learning/model_batch_size_256.tflite --compression none --verbosity 1 --workspace C:/Users/lilmo/AppData/Local/Temp/mxAI_workspace29633519924290011525244127750516860 --output C:/Users/lilmo/.stm32cubemx/emgclassifier_output
 
 Exec/report summary (generate)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -11,7 +11,7 @@ compression        :   none
 options            :   allocate-inputs, allocate-outputs                                                                                                            
 optimization       :   balanced                                                                                                                                     
 target/series      :   stm32l4                                                                                                                                      
-workspace dir      :   C:\Users\lilmo\AppData\Local\Temp\mxAI_workspace242704377179260012975225511093852945                                                         
+workspace dir      :   C:\Users\lilmo\AppData\Local\Temp\mxAI_workspace29633519924290011525244127750516860                                                          
 output dir         :   C:\Users\lilmo\.stm32cubemx\emgclassifier_output                                                                                             
 model_fmt          :   float                                                                                                                                        
 model_name         :   model_batch_size_256                                                                                                                         
