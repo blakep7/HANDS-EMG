@@ -1,0 +1,13 @@
+/*
+ * syscalls.h
+ *
+ *  Created on: Mar 7, 2025
+ *      Author: lilmo
+ */
+
+#ifndef SRC_SYSCALLS_H_
+#define SRC_SYSCALLS_H_
+
+
+
+#endif /* SRC_SYSCALLS_H_ */

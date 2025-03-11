@@ -212,7 +212,7 @@ void MX_X_CUBE_AI_Process(void)
 
   printf("TEMPLATE - run - main loop\r\n");
 
-  if (network_1740727433501) {
+  if (emgclassifier) {
 
     do {
       /* 1 - acquire and pre-process input data */
