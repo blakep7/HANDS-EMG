@@ -415,10 +415,6 @@
     [
       "9c27d105-7969-4235-8f4c-8400008ffa02",
       "Root"
-    ],
-    [
-      "a2dc81ba-1f3a-47fb-9c85-d5f77248e05d",
-      "FinalPCB_STM32"
     ]
   ],
   "text_variables": {}
