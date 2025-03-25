@@ -16413,7 +16413,7 @@
 	)
 	(global_label "USB_DN"
 		(shape bidirectional)
-		(at 703.58 754.38 180)
+		(at 703.58 751.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16423,7 +16423,7 @@
 		)
 		(uuid "2df9358e-08e3-425d-99bf-1121f4ed722c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 692.1054 754.38 0)
+			(at 692.1054 751.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16479,7 +16479,7 @@
 	)
 	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 713.74 751.84 0)
+		(at 713.74 754.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16489,7 +16489,7 @@
 		)
 		(uuid "32850fba-2f0f-43e2-ae84-08be4fb3d418")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 725.1541 751.84 0)
+			(at 725.1541 754.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19075,7 +19075,7 @@
 	)
 	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 703.58 751.84 180)
+		(at 703.58 754.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19085,7 +19085,7 @@
 		)
 		(uuid "b4eabee9-cedc-489e-b048-7b62d589a9d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 692.1659 751.84 0)
+			(at 692.1659 754.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19515,7 +19515,7 @@
 	)
 	(global_label "USB_DN"
 		(shape bidirectional)
-		(at 713.74 754.38 0)
+		(at 713.74 751.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19525,7 +19525,7 @@
 		)
 		(uuid "cd19a2be-6273-4ecc-a30b-3a7feb7a65f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 725.2146 754.38 0)
+			(at 725.2146 751.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20579,7 +20579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d9ca0e-3cb6-4c7d-b109-0732c3381403")
-		(property "Reference" "sC45"
+		(property "Reference" "sC29"
 			(at 619.76 646.4362 0)
 			(effects
 				(font
@@ -20633,7 +20633,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC45")
+					(reference "sC29")
 					(unit 1)
 				)
 			)
@@ -20649,7 +20649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "091da948-5e62-4c37-ab47-857cba784c82")
-		(property "Reference" "sC63"
+		(property "Reference" "sC50"
 			(at 679.45 646.4362 0)
 			(effects
 				(font
@@ -20703,7 +20703,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC63")
+					(reference "sC50")
 					(unit 1)
 				)
 			)
@@ -21284,7 +21284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1809f0f8-7746-4325-b3f9-f8ce54f1fd7f")
-		(property "Reference" "sC70"
+		(property "Reference" "sC56"
 			(at 711.2 709.3838 0)
 			(effects
 				(font
@@ -21338,7 +21338,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC70")
+					(reference "sC56")
 					(unit 1)
 				)
 			)
@@ -21553,7 +21553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb86fa5-2101-4748-94fe-a8109c9ce5ad")
-		(property "Reference" "sLD14"
+		(property "Reference" "sLD7"
 			(at 833.12 754.3799 90)
 			(effects
 				(font
@@ -21625,7 +21625,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sLD14")
+					(reference "sLD7")
 					(unit 1)
 				)
 			)
@@ -21641,7 +21641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2128d5ff-cbf0-42c7-a812-f137c93d4de9")
-		(property "Reference" "sR18"
+		(property "Reference" "sR54"
 			(at 598.17 745.49 90)
 			(effects
 				(font
@@ -21693,7 +21693,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR18")
+					(reference "sR54")
 					(unit 1)
 				)
 			)
@@ -22404,7 +22404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1857d5-b5ea-43c9-b968-e2792d5de578")
-		(property "Reference" "sC38"
+		(property "Reference" "sC33"
 			(at 591.82 646.4362 0)
 			(effects
 				(font
@@ -22458,7 +22458,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC38")
+					(reference "sC33")
 					(unit 1)
 				)
 			)
@@ -22474,7 +22474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f281121-d0d5-4f10-a63a-655ea722cadf")
-		(property "Reference" "sR21"
+		(property "Reference" "sR51"
 			(at 820.42 754.3799 0)
 			(effects
 				(font
@@ -22528,7 +22528,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR21")
+					(reference "sR51")
 					(unit 1)
 				)
 			)
@@ -23349,7 +23349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ee1e71-3ca8-4ec8-ab37-756e28a9d822")
-		(property "Reference" "sU10"
+		(property "Reference" "sU13"
 			(at 710.3111 744.22 0)
 			(effects
 				(font
@@ -23418,7 +23418,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sU10")
+					(reference "sU13")
 					(unit 1)
 				)
 			)
@@ -23883,7 +23883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "538ccd40-c057-43c1-95cf-f2a0b5d89058")
-		(property "Reference" "sLD15"
+		(property "Reference" "sLD8"
 			(at 919.48 745.4901 90)
 			(effects
 				(font
@@ -23955,7 +23955,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sLD15")
+					(reference "sLD8")
 					(unit 1)
 				)
 			)
@@ -24174,7 +24174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "576c00e4-13d5-4ca9-8ae7-b91e3f29326e")
-		(property "Reference" "sC43"
+		(property "Reference" "sC49"
 			(at 605.79 646.4362 0)
 			(effects
 				(font
@@ -24228,7 +24228,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC43")
+					(reference "sC49")
 					(unit 1)
 				)
 			)
@@ -24244,7 +24244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599217ac-83d4-42fd-b4a4-e159ca9e0a74")
-		(property "Reference" "sC66"
+		(property "Reference" "sC54"
 			(at 712.47 673.1062 0)
 			(effects
 				(font
@@ -24298,7 +24298,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC66")
+					(reference "sC54")
 					(unit 1)
 				)
 			)
@@ -24983,7 +24983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fa9987-7d78-4199-9ae5-6a8423d5242d")
-		(property "Reference" "sC62"
+		(property "Reference" "sC31"
 			(at 665.48 646.4362 0)
 			(effects
 				(font
@@ -25037,7 +25037,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC62")
+					(reference "sC31")
 					(unit 1)
 				)
 			)
@@ -25297,7 +25297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "689a992a-a77a-4caf-9caf-af3935a80ab0")
-		(property "Reference" "sR23"
+		(property "Reference" "sR49"
 			(at 895.35 750.57 90)
 			(effects
 				(font
@@ -25349,7 +25349,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR23")
+					(reference "sR49")
 					(unit 1)
 				)
 			)
@@ -25498,7 +25498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dab5400-87e5-4662-ae8a-e6b6ae6532fc")
-		(property "Reference" "sL2"
+		(property "Reference" "sL3"
 			(at 605.7519 707.39 90)
 			(effects
 				(font
@@ -25550,7 +25550,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sL2")
+					(reference "sL3")
 					(unit 1)
 				)
 			)
@@ -25797,7 +25797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "758368f2-b912-4e89-9f4b-3d93a9ea5359")
-		(property "Reference" "sC69"
+		(property "Reference" "sC52"
 			(at 740.41 673.1062 0)
 			(effects
 				(font
@@ -25851,7 +25851,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC69")
+					(reference "sC52")
 					(unit 1)
 				)
 			)
@@ -26208,7 +26208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a770c2f-7bc9-4716-a725-841e92b2067c")
-		(property "Reference" "sC72"
+		(property "Reference" "sC42"
 			(at 756.92 748.7538 0)
 			(effects
 				(font
@@ -26262,7 +26262,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC72")
+					(reference "sC42")
 					(unit 1)
 				)
 			)
@@ -26278,7 +26278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b4a9395-04ae-4278-a26c-2fbd7704a204")
-		(property "Reference" "sC47"
+		(property "Reference" "sC61"
 			(at 633.73 646.4362 0)
 			(effects
 				(font
@@ -26332,7 +26332,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC47")
+					(reference "sC61")
 					(unit 1)
 				)
 			)
@@ -26348,7 +26348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d0309d4-28f0-4983-b3e4-6aea233e23a2")
-		(property "Reference" "sCN3"
+		(property "Reference" "sCN14"
 			(at 643.89 744.22 0)
 			(effects
 				(font
@@ -26412,7 +26412,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sCN3")
+					(reference "sCN14")
 					(unit 1)
 				)
 			)
@@ -26767,7 +26767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e21b3f6-c255-48b4-9357-c5ce00e13ef7")
-		(property "Reference" "sR19"
+		(property "Reference" "sR52"
 			(at 847.09 751.8399 0)
 			(effects
 				(font
@@ -26821,7 +26821,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR19")
+					(reference "sR52")
 					(unit 1)
 				)
 			)
@@ -26907,7 +26907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f3acbf-bf29-4ecc-b1be-3d213ab74667")
-		(property "Reference" "sC65"
+		(property "Reference" "sC51"
 			(at 693.42 646.4362 0)
 			(effects
 				(font
@@ -26961,7 +26961,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC65")
+					(reference "sC51")
 					(unit 1)
 				)
 			)
@@ -27250,7 +27250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89fb6f27-1f17-402c-b8b7-cdab7d9e98fb")
-		(property "Reference" "sC64"
+		(property "Reference" "sC60"
 			(at 678.18 673.1062 0)
 			(effects
 				(font
@@ -27304,7 +27304,73 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC64")
+					(reference "sC60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 708.66 721.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c1ede16-9a2d-49fa-8fec-f7cccbc67d41")
+		(property "Reference" "#PWR044"
+			(at 708.66 727.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 708.66 726.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 708.66 721.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 708.66 721.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 708.66 721.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b56f5d6-f4e1-4343-a73c-daef6d6831dd")
+		)
+		(instances
+			(project "final_handsEMG"
+				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -27390,7 +27456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9366789d-9efd-4315-9b23-4c07ed8f8742")
-		(property "Reference" "sC48"
+		(property "Reference" "sC28"
 			(at 633.73 673.1062 0)
 			(effects
 				(font
@@ -27444,7 +27510,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC48")
+					(reference "sC28")
 					(unit 1)
 				)
 			)
@@ -27798,7 +27864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a89d048d-2703-4655-84f4-6e4d702a16b3")
-		(property "Reference" "sC71"
+		(property "Reference" "sC57"
 			(at 725.17 709.9362 0)
 			(effects
 				(font
@@ -27852,7 +27918,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC71")
+					(reference "sC57")
 					(unit 1)
 				)
 			)
@@ -27868,7 +27934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a913cca7-58c0-486f-91bc-8d5dfb3b5cd5")
-		(property "Reference" "sC39"
+		(property "Reference" "sC53"
 			(at 591.82 673.1062 0)
 			(effects
 				(font
@@ -27922,7 +27988,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC39")
+					(reference "sC53")
 					(unit 1)
 				)
 			)
@@ -27938,7 +28004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b33cdc35-b434-4d51-a32c-1f6438c5b2e1")
-		(property "Reference" "sR24"
+		(property "Reference" "sR48"
 			(at 913.13 759.46 90)
 			(effects
 				(font
@@ -27990,7 +28056,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR24")
+					(reference "sR48")
 					(unit 1)
 				)
 			)
@@ -28006,7 +28072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4754f39-d652-4534-afbb-30a5e784a336")
-		(property "Reference" "sU14"
+		(property "Reference" "sU12"
 			(at 788.67 734.06 0)
 			(effects
 				(font
@@ -28069,7 +28135,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sU14")
+					(reference "sU12")
 					(unit 1)
 				)
 			)
@@ -28233,7 +28299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67096fe-8139-4efb-8ba2-d241c7a7288f")
-		(property "Reference" "sC68"
+		(property "Reference" "sC58"
 			(at 680.72 709.9362 0)
 			(effects
 				(font
@@ -28287,7 +28353,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC68")
+					(reference "sC58")
 					(unit 1)
 				)
 			)
@@ -28303,7 +28369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b893baa4-c073-4adb-8835-275fdab24a7c")
-		(property "Reference" "sR25"
+		(property "Reference" "sR41"
 			(at 919.48 739.1401 0)
 			(effects
 				(font
@@ -28357,7 +28423,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR25")
+					(reference "sR41")
 					(unit 1)
 				)
 			)
@@ -28707,7 +28773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2553da0-f2ed-46ac-8b08-105e91b48e2d")
-		(property "Reference" "sT3"
+		(property "Reference" "sT2"
 			(at 924.56 754.3799 0)
 			(effects
 				(font
@@ -28764,7 +28830,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sT3")
+					(reference "sT2")
 					(unit 1)
 				)
 			)
@@ -28780,7 +28846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2dad472-5f1e-48bb-9d41-e5f25782f5e3")
-		(property "Reference" "sC55"
+		(property "Reference" "sC34"
 			(at 647.7 673.1062 0)
 			(effects
 				(font
@@ -28834,7 +28900,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC55")
+					(reference "sC34")
 					(unit 1)
 				)
 			)
@@ -29027,7 +29093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7327566-56bb-4b50-89c4-0e4a56c97443")
-		(property "Reference" "sR22"
+		(property "Reference" "sR45"
 			(at 833.12 760.7299 0)
 			(effects
 				(font
@@ -29081,7 +29147,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR22")
+					(reference "sR45")
 					(unit 1)
 				)
 			)
@@ -29097,7 +29163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8ba32a9-0767-4ad0-9038-69e50afa247c")
-		(property "Reference" "sC67"
+		(property "Reference" "sC59"
 			(at 666.75 709.3838 0)
 			(effects
 				(font
@@ -29151,7 +29217,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC67")
+					(reference "sC59")
 					(unit 1)
 				)
 			)
@@ -29545,7 +29611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4227b4c-2956-4228-9f8f-1e26ab386368")
-		(property "Reference" "sC46"
+		(property "Reference" "sC32"
 			(at 619.76 673.1062 0)
 			(effects
 				(font
@@ -29599,7 +29665,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC46")
+					(reference "sC32")
 					(unit 1)
 				)
 			)
@@ -30105,7 +30171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6723d75-baaf-4216-b5d2-de2781465e8e")
-		(property "Reference" "sC44"
+		(property "Reference" "sC30"
 			(at 605.79 673.1062 0)
 			(effects
 				(font
@@ -30159,7 +30225,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sC44")
+					(reference "sC30")
 					(unit 1)
 				)
 			)
@@ -30394,7 +30460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed3db2ee-a8a7-4cb6-a5de-e474b3aac08e")
-		(property "Reference" "sD4"
+		(property "Reference" "sD6"
 			(at 662.94 767.0799 90)
 			(effects
 				(font
@@ -30466,7 +30532,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sD4")
+					(reference "sD6")
 					(unit 1)
 				)
 			)
@@ -30810,7 +30876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc00ce4e-82e7-4015-bd60-b89ae059fe03")
-		(property "Reference" "sR9"
+		(property "Reference" "sR38"
 			(at 500.38 831.85 90)
 			(effects
 				(font
@@ -30862,7 +30928,7 @@
 		(instances
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "sR9")
+					(reference "sR38")
 					(unit 1)
 				)
 			)
