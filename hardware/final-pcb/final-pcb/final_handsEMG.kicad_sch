@@ -11960,49 +11960,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS60403DBVT_1"
+		(symbol "TPS60403DBVT:TPS60403DBVT"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 29.21 7.62 0)
+			(property "Reference" "U"
+				(at 30.48 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TPS60403DBVT"
-				(at 29.21 5.08 0)
+				(at 30.48 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 29.21 -94.92 0)
+			(property "Footprint" "DBV5"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps60403.pdf"
-				(at 29.21 -194.92 0)
+			(property "Datasheet" "TPS60403DBVT"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "TPS60403DBVTG4, Charge Pump Inverting, Step Down, Step Up, -5.25 to -1.6V, 5-Pin, SOT-23"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -12011,91 +12012,84 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.45"
-				(at 29.21 -394.92 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 29.21 -494.92 0)
+			(property "ki_keywords" "TPS60403DBVT"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TPS60403DBVT"
-				(at 29.21 -594.92 0)
+			(property "ki_fp_filters" "DBV5 DBV5-M DBV5-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-TPS60403DBVT"
-				(at 29.21 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TPS60403DBVT_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS60403DBVT?qs=YEaxc5757jOMaH%2FoUp%252BPCg%3D%3D"
-				(at 29.21 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TPS60403DBVT"
-				(at 29.21 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps60403dbvt/texas-instruments?region=nac"
-				(at 29.21 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TPS60403DBVT_1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 27.94 -7.62)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 53.34 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -10.16) (xy 53.34 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
 					(at 0 0 0)
-					(length 5.08)
+					(length 7.62)
 					(name "OUT"
 						(effects
 							(font
@@ -12111,9 +12105,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 -2.54 0)
-					(length 5.08)
+					(length 7.62)
 					(name "IN"
 						(effects
 							(font
@@ -12129,17 +12123,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CFLY-"
+				(pin unspecified line
+					(at 60.96 0 180)
+					(length 7.62)
+					(name "CFLY+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12147,9 +12141,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 33.02 0 180)
-					(length 5.08)
+				(pin power_in line
+					(at 60.96 -2.54 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -12165,17 +12159,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "CFLY+"
+				(pin unspecified line
+					(at 60.96 -5.08 180)
+					(length 7.62)
+					(name "CFLY-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12344,49 +12338,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS73225DBVT_1"
+		(symbol "TPS73225DBVT:TPS73225DBVT"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
+			(property "Reference" "U"
+				(at 30.48 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TPS73225DBVT"
-				(at 24.13 5.08 0)
+				(at 30.48 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 24.13 -94.92 0)
+			(property "Footprint" "DBV5_TEX"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps732.pdf"
-				(at 24.13 -194.92 0)
+			(property "Datasheet" "TPS73225DBVT"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -12395,91 +12390,84 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.45"
-				(at 24.13 -394.92 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -494.92 0)
+			(property "ki_keywords" "TPS73225DBVT"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TPS73225DBVT"
-				(at 24.13 -594.92 0)
+			(property "ki_fp_filters" "DBV5_TEX DBV5_TEX-M DBV5_TEX-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-TPS73225DBVT"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TPS73225DBVT_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS73225DBVT?qs=6zVL%252ByCp0mrRhyKK%252BdC15w%3D%3D"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TPS73225DBVT"
-				(at 24.13 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps73225dbvt/texas-instruments?utm_currency=USD&region=nac"
-				(at 24.13 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TPS73225DBVT_1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 53.34 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -10.16) (xy 53.34 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
 					(at 0 0 0)
-					(length 5.08)
+					(length 7.62)
 					(name "IN"
 						(effects
 							(font
@@ -12497,7 +12485,7 @@
 				)
 				(pin power_in line
 					(at 0 -2.54 0)
-					(length 5.08)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -12513,17 +12501,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "EN"
+				(pin output line
+					(at 60.96 0 180)
+					(length 7.62)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12531,9 +12519,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
+				(pin bidirectional line
+					(at 60.96 -2.54 180)
+					(length 7.62)
 					(name "NR/FB"
 						(effects
 							(font
@@ -12549,17 +12537,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "OUT"
+				(pin unspecified line
+					(at 60.96 -5.08 180)
+					(length 7.62)
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13878,6 +13866,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fbfa2a2-c023-4977-add5-465a5fdd5c38")
+	)
+	(junction
+		(at 962.66 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "401ee3a7-7f9c-4b85-b701-0c359e8f753d")
 	)
 	(junction
 		(at 144.78 220.98)
@@ -15723,16 +15717,6 @@
 	)
 	(wire
 		(pts
-			(xy 1046.48 58.42) (xy 1046.48 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bef462f-64d4-403b-bf2c-1edd8121fcdd")
-	)
-	(wire
-		(pts
 			(xy 687.07 547.37) (xy 687.07 549.91)
 		)
 		(stroke
@@ -15973,16 +15957,6 @@
 	)
 	(wire
 		(pts
-			(xy 1038.86 64.77) (xy 1060.45 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b7d80c-cafb-4f67-91b8-70d4847d2da8")
-	)
-	(wire
-		(pts
 			(xy 144.78 60.96) (xy 137.16 60.96)
 		)
 		(stroke
@@ -15990,16 +15964,6 @@
 			(type default)
 		)
 		(uuid "13fc1826-0e1b-4dd7-a129-eb24a2b990a5")
-	)
-	(wire
-		(pts
-			(xy 1026.16 123.19) (xy 1033.78 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "140345bc-0106-47a1-a636-b523a34e80aa")
 	)
 	(wire
 		(pts
@@ -16673,6 +16637,16 @@
 	)
 	(wire
 		(pts
+			(xy 962.66 115.57) (xy 962.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28748dde-7171-4268-ae1c-bd27fad80c86")
+	)
+	(wire
+		(pts
 			(xy 773.43 120.65) (xy 773.43 123.19)
 		)
 		(stroke
@@ -16850,6 +16824,16 @@
 			(type default)
 		)
 		(uuid "2fcad15c-2320-4a5a-973d-c34c905cd9e8")
+	)
+	(wire
+		(pts
+			(xy 967.74 160.02) (xy 967.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd0c4d9-d4e1-4d79-a88c-271378126b00")
 	)
 	(wire
 		(pts
@@ -17173,16 +17157,6 @@
 	)
 	(wire
 		(pts
-			(xy 985.52 59.69) (xy 998.22 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "394ddd63-d7eb-4666-9d3e-e5107d18a7a7")
-	)
-	(wire
-		(pts
 			(xy 937.26 115.57) (xy 937.26 123.19)
 		)
 		(stroke
@@ -17250,16 +17224,6 @@
 			(type default)
 		)
 		(uuid "3b9947ba-2f10-4753-bf23-3daf35601df5")
-	)
-	(wire
-		(pts
-			(xy 1033.78 128.27) (xy 1042.67 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9e5d7a-c9bf-4ccd-8ce9-67c42a03e4a2")
 	)
 	(wire
 		(pts
@@ -17613,16 +17577,6 @@
 	)
 	(wire
 		(pts
-			(xy 1037.59 62.23) (xy 1037.59 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4989a8d1-9e5f-4c5c-92a4-981b31e53f5e")
-	)
-	(wire
-		(pts
 			(xy 998.22 674.37) (xy 998.22 671.83)
 		)
 		(stroke
@@ -17753,13 +17707,13 @@
 	)
 	(wire
 		(pts
-			(xy 1037.59 58.42) (xy 1046.48 58.42)
+			(xy 1064.26 125.73) (xy 1046.48 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e527e28-e615-405a-a5fa-7800b3131570")
+		(uuid "4e434ebc-f9a0-4883-81e5-a0a72aa5ab5c")
 	)
 	(wire
 		(pts
@@ -18090,16 +18044,6 @@
 			(type default)
 		)
 		(uuid "568836a5-ffd0-4ad0-88ae-31db7764d1ce")
-	)
-	(wire
-		(pts
-			(xy 1042.67 128.27) (xy 1042.67 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f0146b-4957-4ba4-a2f5-9d09fca9b6ca")
 	)
 	(wire
 		(pts
@@ -18543,16 +18487,6 @@
 	)
 	(wire
 		(pts
-			(xy 1040.13 62.23) (xy 1046.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6673767b-a39e-472e-881f-df50a98242b7")
-	)
-	(wire
-		(pts
 			(xy 1029.97 165.1) (xy 1083.31 165.1)
 		)
 		(stroke
@@ -18840,16 +18774,6 @@
 			(type default)
 		)
 		(uuid "6d702723-7c09-4614-b8df-5be5cb5ff378")
-	)
-	(wire
-		(pts
-			(xy 1036.32 123.19) (xy 1083.31 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d764483-9b4b-480f-a7cb-797637492937")
 	)
 	(wire
 		(pts
@@ -19200,6 +19124,16 @@
 			(type default)
 		)
 		(uuid "7ae569bb-cca9-4202-80ad-fedac9861d37")
+	)
+	(wire
+		(pts
+			(xy 1046.48 123.19) (xy 1083.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afda8dc-5975-47b0-865e-e536d0a9a496")
 	)
 	(wire
 		(pts
@@ -19603,6 +19537,16 @@
 	)
 	(wire
 		(pts
+			(xy 962.66 123.19) (xy 985.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88128279-3e6e-4281-90ad-f5bdc8bf9ef2")
+	)
+	(wire
+		(pts
 			(xy 805.18 110.49) (xy 805.18 104.14)
 		)
 		(stroke
@@ -19703,16 +19647,6 @@
 	)
 	(wire
 		(pts
-			(xy 1038.86 72.39) (xy 1038.86 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5d0b21-ee94-4a30-a62d-5b31d6d38755")
-	)
-	(wire
-		(pts
 			(xy 1098.55 135.89) (xy 1098.55 132.08)
 		)
 		(stroke
@@ -19803,7 +19737,7 @@
 	)
 	(wire
 		(pts
-			(xy 937.26 123.19) (xy 998.22 123.19)
+			(xy 937.26 123.19) (xy 962.66 123.19)
 		)
 		(stroke
 			(width 0)
@@ -20143,16 +20077,6 @@
 	)
 	(wire
 		(pts
-			(xy 998.22 128.27) (xy 995.68 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a283779-97c1-4394-b40d-b4e3110056ee")
-	)
-	(wire
-		(pts
 			(xy 1042.67 734.06) (xy 1049.02 734.06)
 		)
 		(stroke
@@ -20293,16 +20217,6 @@
 	)
 	(wire
 		(pts
-			(xy 1031.24 59.69) (xy 1040.13 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3256a4-5399-4245-b142-759724d038d3")
-	)
-	(wire
-		(pts
 			(xy 632.46 203.2) (xy 646.43 203.2)
 		)
 		(stroke
@@ -20310,16 +20224,6 @@
 			(type default)
 		)
 		(uuid "9f891b64-15c4-46b0-a65d-75b48c7d2054")
-	)
-	(wire
-		(pts
-			(xy 1036.32 125.73) (xy 1036.32 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9faba50f-e7cc-4bca-82c4-7f378ff2c27c")
 	)
 	(wire
 		(pts
@@ -21353,16 +21257,6 @@
 	)
 	(wire
 		(pts
-			(xy 1040.13 59.69) (xy 1040.13 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c471e343-d8d9-4464-b010-ee3326b57468")
-	)
-	(wire
-		(pts
 			(xy 1123.95 119.38) (xy 1123.95 123.19)
 		)
 		(stroke
@@ -21680,16 +21574,6 @@
 			(type default)
 		)
 		(uuid "ccfc4852-c3ac-4c8f-abc1-23c8faff4870")
-	)
-	(wire
-		(pts
-			(xy 1033.78 123.19) (xy 1033.78 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd7017f0-5484-4e13-a6a4-f391acde956e")
 	)
 	(wire
 		(pts
@@ -22173,16 +22057,6 @@
 	)
 	(wire
 		(pts
-			(xy 1031.24 62.23) (xy 1037.59 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb8d651-4205-435d-8c13-fffa2170351d")
-	)
-	(wire
-		(pts
 			(xy 805.18 289.56) (xy 852.17 289.56)
 		)
 		(stroke
@@ -22513,16 +22387,6 @@
 	)
 	(wire
 		(pts
-			(xy 1042.67 125.73) (xy 1064.26 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1dc393f-77bc-4b57-baa8-eadc6d2bce98")
-	)
-	(wire
-		(pts
 			(xy 288.29 44.45) (xy 274.32 44.45)
 		)
 		(stroke
@@ -22720,16 +22584,6 @@
 			(type default)
 		)
 		(uuid "e8ad1c2e-f1f6-4f5e-b5a5-816bf5c55522")
-	)
-	(wire
-		(pts
-			(xy 995.68 128.27) (xy 995.68 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ae426d-9fea-46d0-a6a2-dd7d09a7d32c")
 	)
 	(wire
 		(pts
@@ -22933,16 +22787,6 @@
 	)
 	(wire
 		(pts
-			(xy 998.22 72.39) (xy 1038.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7ddd90-9937-48ea-b374-315cb54fcd46")
-	)
-	(wire
-		(pts
 			(xy 768.35 388.62) (xy 768.35 392.43)
 		)
 		(stroke
@@ -22970,16 +22814,6 @@
 			(type default)
 		)
 		(uuid "eeb84e72-bf11-4060-b197-2ecbd6b536b4")
-	)
-	(wire
-		(pts
-			(xy 1026.16 125.73) (xy 1036.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eedf3fe5-e46b-4e19-99eb-63748a383c7c")
 	)
 	(wire
 		(pts
@@ -23040,16 +22874,6 @@
 			(type default)
 		)
 		(uuid "f0eca12e-995e-4d94-85ec-c2fd92cd6418")
-	)
-	(wire
-		(pts
-			(xy 998.22 64.77) (xy 998.22 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f117ffac-ef2b-4e36-8324-7590a4a49272")
 	)
 	(wire
 		(pts
@@ -23130,6 +22954,16 @@
 			(type default)
 		)
 		(uuid "f2e1282e-5019-45a6-bba5-83519bf5ef1d")
+	)
+	(wire
+		(pts
+			(xy 1046.48 64.77) (xy 1060.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ef529e-2aff-4835-98fb-c69c7c8c2b2b")
 	)
 	(wire
 		(pts
@@ -23413,16 +23247,6 @@
 	)
 	(wire
 		(pts
-			(xy 985.52 62.23) (xy 998.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc008e9-d711-43eb-b01d-76209e376d12")
-	)
-	(wire
-		(pts
 			(xy 1090.93 676.91) (xy 1104.9 676.91)
 		)
 		(stroke
@@ -23580,16 +23404,6 @@
 			(type default)
 		)
 		(uuid "fff93052-2b50-4d60-85b0-e6b2fe39ad2a")
-	)
-	(wire
-		(pts
-			(xy 985.52 125.73) (xy 998.22 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffd80f8-34f4-4192-8203-2a455a148e68")
 	)
 	(global_label "IN7P"
 		(shape bidirectional)
@@ -24247,6 +24061,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-5VCC"
+		(shape bidirectional)
+		(at 958.85 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12b4e12f-6154-426f-83e0-9871e02950ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 948.343 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -25177,22 +25013,22 @@
 	)
 	(global_label "ENP"
 		(shape bidirectional)
-		(at 995.68 130.81 270)
+		(at 1046.48 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "32e69e67-1de8-42ca-a876-89a72bd9d1c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 995.68 138.656 90)
+			(at 1054.326 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -26121,7 +25957,7 @@
 			)
 		)
 	)
-	(global_label "USB_VBUS"
+	(global_label "VBUS"
 		(shape bidirectional)
 		(at 807.72 631.19 0)
 		(fields_autoplaced yes)
@@ -26133,7 +25969,7 @@
 		)
 		(uuid "5a6911a0-922c-4284-9820-9e57271463f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 821.4927 631.19 0)
+			(at 816.7151 631.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29773,28 +29609,6 @@
 			)
 		)
 	)
-	(global_label "-5VCC"
-		(shape bidirectional)
-		(at 958.85 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ced8f86c-cdd5-4392-b49e-6812798806de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 948.343 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB15"
 		(shape bidirectional)
 		(at 614.68 628.65 180)
@@ -31207,7 +31021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MLZ2012A3R3W:INDC2012X87N"
 			(at 1111.25 123.19 0)
 			(effects
 				(font
@@ -31363,7 +31177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1608X5R0J106M"
 			(at 825.5 393.7 0)
 			(effects
 				(font
@@ -31501,7 +31315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R1C104K"
 			(at 678.18 320.04 0)
 			(effects
 				(font
@@ -31637,7 +31451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04020000Z0EDC"
 			(at 779.78 101.6 0)
 			(effects
 				(font
@@ -31845,7 +31659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021K00JNED"
 			(at 646.43 320.04 0)
 			(effects
 				(font
@@ -32457,7 +32271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1608X5R0J225M"
 			(at 779.78 220.98 0)
 			(effects
 				(font
@@ -32527,7 +32341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW040220R0FKED"
 			(at 801.37 353.06 0)
 			(effects
 				(font
@@ -32597,7 +32411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:04025A100KAT"
 			(at 773.43 304.8 0)
 			(effects
 				(font
@@ -32865,7 +32679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SAMTEC-TMM-103-02-X-S"
 			(at 632.46 290.83 0)
 			(effects
 				(font
@@ -32940,7 +32754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04022K00FKED"
 			(at 595.63 137.16 0)
 			(effects
 				(font
@@ -34284,7 +34098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:IND_3010_TDK"
 			(at 754.38 420.37 0)
 			(effects
 				(font
@@ -34831,7 +34645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402232KFKED"
 			(at 803.91 430.53 0)
 			(effects
 				(font
@@ -35106,7 +34920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402105KFKED"
 			(at 840.74 373.38 0)
 			(effects
 				(font
@@ -35440,7 +35254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW040215K0FKED"
 			(at 787.4 368.3 0)
 			(effects
 				(font
@@ -35510,7 +35324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021K00JNED"
 			(at 805.18 101.6 0)
 			(effects
 				(font
@@ -35578,7 +35392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MLZ2012A3R3W:INDC2012X87N"
 			(at 949.96 80.01 0)
 			(effects
 				(font
@@ -35716,7 +35530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW040216K9FKED"
 			(at 792.48 309.88 0)
 			(effects
 				(font
@@ -35897,6 +35711,72 @@
 			(project ""
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 967.74 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d76a60d-84a5-421f-b75d-4fe4b9449f28")
+		(property "Reference" "#PWR087"
+			(at 967.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 967.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 967.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 967.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 967.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e3da9ec-f6f1-442e-8f0f-ca3c7d948594")
+		)
+		(instances
+			(project "final_handsEMG"
+				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -36134,7 +36014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32L496ZGT6:QFP50P2200X2200X160-144N"
+		(property "Footprint" "STM32L496ZGT6:LQFP144-20x20mm_STM"
 			(at 659.13 626.11 0)
 			(effects
 				(font
@@ -36669,7 +36549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402100KFKED"
 			(at 608.33 83.82 0)
 			(effects
 				(font
@@ -36805,7 +36685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04022K20FKED"
 			(at 857.25 101.6 0)
 			(effects
 				(font
@@ -37007,7 +36887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402649KFKED"
 			(at 814.07 405.13 0)
 			(effects
 				(font
@@ -37226,7 +37106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021K00JNED"
 			(at 646.43 383.54 0)
 			(effects
 				(font
@@ -37296,7 +37176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04023K01FKED"
 			(at 588.01 110.49 0)
 			(effects
 				(font
@@ -37366,7 +37246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW040220R0FKED"
 			(at 758.19 294.64 0)
 			(effects
 				(font
@@ -37473,6 +37353,85 @@
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS60403DBVT:TPS60403DBVT")
+		(at 985.52 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c8afde2-28fe-4927-88a4-b09c711b0dad")
+		(property "Reference" "U6"
+			(at 1016 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS60403DBVT"
+			(at 1016 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TPS60403DBVT:SOT95P280X145-5N"
+			(at 985.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TPS60403DBVT"
+			(at 985.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 985.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "60688012-1ae6-4562-8705-57dfcd586e53")
+		)
+		(pin "1"
+			(uuid "15deba3e-5b53-4c4c-8ba6-5e40475fdfd1")
+		)
+		(pin "2"
+			(uuid "090eb80f-2f26-413c-a321-ad13d6ed82f8")
+		)
+		(pin "4"
+			(uuid "a5f34242-1f9f-4229-b72a-caa97f1ba276")
+		)
+		(pin "3"
+			(uuid "c1d6d509-e250-4476-a2f2-cfe4bdf205a1")
+		)
+		(instances
+			(project ""
+				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -37659,7 +37618,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "516b8ab1-da0c-4da7-bf3f-f3b1904534ba")
 		(property "Reference" "pC14"
 			(at 807.72 297.1862 0)
@@ -37679,7 +37637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:LMK316BJ476ML-T"
 			(at 805.18 298.45 0)
 			(effects
 				(font
@@ -37747,7 +37705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021K00JNED"
 			(at 646.43 290.83 0)
 			(effects
 				(font
@@ -38523,7 +38481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:JMK212BJ226MG-T"
 			(at 789.94 125.73 0)
 			(effects
 				(font
@@ -39118,7 +39076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R0J105M"
 			(at 779.78 195.58 0)
 			(effects
 				(font
@@ -40057,7 +40015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04020000Z0EDC"
 			(at 621.03 83.82 0)
 			(effects
 				(font
@@ -40265,7 +40223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:04025A100KAT"
 			(at 784.86 398.78 0)
 			(effects
 				(font
@@ -40620,7 +40578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1608X5R0J106M"
 			(at 825.5 425.45 0)
 			(effects
 				(font
@@ -41529,7 +41487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TAJA475K016R:CAPMP3216X166"
 			(at 899.16 728.98 0)
 			(effects
 				(font
@@ -41599,7 +41557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021K00JNED"
 			(at 844.55 101.6 0)
 			(effects
 				(font
@@ -41805,7 +41763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402324KFKED"
 			(at 801.37 368.3 0)
 			(effects
 				(font
@@ -41875,7 +41833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:JMK212BJ226MG-T"
 			(at 773.43 125.73 0)
 			(effects
 				(font
@@ -42365,7 +42323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402121KFKED"
 			(at 829.31 368.3 0)
 			(effects
 				(font
@@ -42548,6 +42506,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 962.66 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fe88bd3-58b7-4dca-8915-502aa745524c")
+		(property "Reference" "#PWR086"
+			(at 962.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 962.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 962.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 962.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 962.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0322c92e-8504-4067-8287-19033b050629")
+		)
+		(instances
+			(project "final_handsEMG"
+				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 852.17 360.68 0)
 		(unit 1)
@@ -42555,7 +42579,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "804e4390-7c52-42a6-8b35-db5a6224443a")
 		(property "Reference" "pC19"
 			(at 854.71 359.4162 0)
@@ -42575,7 +42598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:JMK212BJ226MG-T"
 			(at 852.17 360.68 0)
 			(effects
 				(font
@@ -42778,7 +42801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW040220R0FKED"
 			(at 775.97 424.18 0)
 			(effects
 				(font
@@ -42915,7 +42938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R0J105M"
 			(at 872.49 87.63 0)
 			(effects
 				(font
@@ -42985,7 +43008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SAMTEC-TMM-103-02-X-S"
 			(at 632.46 320.04 0)
 			(effects
 				(font
@@ -43060,7 +43083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SAMTEC-TMM-103-02-X-S"
 			(at 632.46 264.16 0)
 			(effects
 				(font
@@ -43205,7 +43228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SAMTEC-TMM-103-02-X-S"
 			(at 632.46 383.54 0)
 			(effects
 				(font
@@ -43414,7 +43437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R0J105M"
 			(at 764.54 205.74 0)
 			(effects
 				(font
@@ -43621,7 +43644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402806KFKED"
 			(at 803.91 398.78 0)
 			(effects
 				(font
@@ -43761,7 +43784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:04025A100KAT"
 			(at 784.86 430.53 0)
 			(effects
 				(font
@@ -43970,7 +43993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R1C104K"
 			(at 603.25 110.49 0)
 			(effects
 				(font
@@ -44040,7 +44063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R0J105M"
 			(at 676.91 58.42 0)
 			(effects
 				(font
@@ -44110,7 +44133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04020000Z0EDC"
 			(at 746.76 228.6 0)
 			(effects
 				(font
@@ -44383,7 +44406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:GRM21BR61A106KE19L"
 			(at 659.13 50.8 0)
 			(effects
 				(font
@@ -44522,7 +44545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402464KFKED"
 			(at 814.07 436.88 0)
 			(effects
 				(font
@@ -44592,7 +44615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:GRM21BR61A106KE19"
 			(at 619.76 46.99 0)
 			(effects
 				(font
@@ -44660,7 +44683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:04025A331KAT"
 			(at 770.89 363.22 0)
 			(effects
 				(font
@@ -44730,7 +44753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:GRM31CR60J107ME39L"
 			(at 755.65 148.59 0)
 			(effects
 				(font
@@ -44800,7 +44823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R1C104K"
 			(at 678.18 290.83 0)
 			(effects
 				(font
@@ -45143,7 +45166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R1C104K"
 			(at 678.18 383.54 0)
 			(effects
 				(font
@@ -45195,7 +45218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab27c0c3-5165-4190-8f2e-988597c5889e")
-		(property "Reference" "L3"
+		(property "Reference" "dL2"
 			(at 906.78 619.7599 0)
 			(effects
 				(font
@@ -45213,7 +45236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MPZ1005S300C:IND_1005_TDK"
 			(at 905.51 621.03 0)
 			(effects
 				(font
@@ -45249,7 +45272,7 @@
 		(instances
 			(project ""
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "L3")
+					(reference "dL2")
 					(unit 1)
 				)
 			)
@@ -45482,7 +45505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:04025A100KAT"
 			(at 754.38 368.3 0)
 			(effects
 				(font
@@ -45970,7 +45993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021R00JNED"
 			(at 778.51 154.94 0)
 			(effects
 				(font
@@ -46435,7 +46458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW0402100KFKED"
 			(at 638.81 48.26 0)
 			(effects
 				(font
@@ -46777,7 +46800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW040220R0FKED"
 			(at 775.97 392.43 0)
 			(effects
 				(font
@@ -46914,7 +46937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "S2B-PH-K-S:CONN_S2B-PH-K-S_JST"
 			(at 798.83 152.4 0)
 			(effects
 				(font
@@ -46984,7 +47007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:04025A330KAT"
 			(at 815.34 360.68 0)
 			(effects
 				(font
@@ -47229,7 +47252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:LPS4018-222MLC"
 			(at 755.65 332.74 0)
 			(effects
 				(font
@@ -47430,6 +47453,85 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS73225DBVT:TPS73225DBVT")
+		(at 985.52 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f50bd1-91b6-40be-9ccf-185353f7f793")
+		(property "Reference" "U9"
+			(at 1016 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS73225DBVT"
+			(at 1016 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TPS73225DBVT:SOT95P280X145-5N"
+			(at 985.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TPS73225DBVT"
+			(at 985.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 985.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae4ceaa2-e291-4b25-80ee-c888fbe5616d")
+		)
+		(pin "5"
+			(uuid "b5d48b8d-f00f-47be-b652-db0694f26733")
+		)
+		(pin "3"
+			(uuid "a4a99958-7c03-41fb-a17c-a7cb898749ff")
+		)
+		(pin "2"
+			(uuid "57f143ec-5229-4d35-b103-7d1a436a1c9a")
+		)
+		(pin "4"
+			(uuid "8f596f9d-4982-4e10-8f56-474923e2f02f")
+		)
+		(instances
+			(project ""
+				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 619.76 55.88 0)
 		(unit 1)
@@ -47457,7 +47559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021R00JNED"
 			(at 619.76 55.88 0)
 			(effects
 				(font
@@ -47662,7 +47764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MLZ2012A3R3W:INDC2012X87N"
 			(at 949.96 40.64 0)
 			(effects
 				(font
@@ -47732,7 +47834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04022K20FKED"
 			(at 817.88 101.6 0)
 			(effects
 				(font
@@ -48064,7 +48166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW040288K7FKED"
 			(at 758.19 304.8 0)
 			(effects
 				(font
@@ -48376,7 +48478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SAMTEC-TMM-103-02-X-S"
 			(at 632.46 228.6 0)
 			(effects
 				(font
@@ -48451,7 +48553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SAMTEC-TMM-103-02-X-S"
 			(at 632.46 350.52 0)
 			(effects
 				(font
@@ -48516,7 +48618,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "10uF"
 			(at 769.6263 261.62 90)
 			(effects
 				(font
@@ -48524,7 +48626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1608X5R0J106M"
 			(at 769.62 265.43 0)
 			(effects
 				(font
@@ -49005,7 +49107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SI2333DS"
 			(at 758.19 133.35 0)
 			(effects
 				(font
@@ -49105,7 +49207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R1C104K"
 			(at 678.18 350.52 0)
 			(effects
 				(font
@@ -49215,156 +49317,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPS73225DBVT_1")
-		(lib_id "TPS73225DBVT:TPS73225DBVT")
-		(at 998.22 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db2bfdd9-37fe-45f3-ab49-c95fbd4b944e")
-		(property "Reference" "U9"
-			(at 1012.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS73225DBVT"
-			(at 1012.19 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 1022.35 218.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps732.pdf"
-			(at 1022.35 318.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection"
-			(at 998.22 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 1022.35 518.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 1022.35 618.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS73225DBVT"
-			(at 1022.35 718.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS73225DBVT"
-			(at 1022.35 818.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS73225DBVT?qs=6zVL%252ByCp0mrRhyKK%252BdC15w%3D%3D"
-			(at 1022.35 918.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TPS73225DBVT"
-			(at 1022.35 1018.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps73225dbvt/texas-instruments?utm_currency=USD&region=nac"
-			(at 1022.35 1118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edd191d5-d28f-435c-877c-a6331c318cc7")
-		)
-		(pin "3"
-			(uuid "b67355d1-6a46-418b-9bb5-8b42489d95d0")
-		)
-		(pin "4"
-			(uuid "a44b93ba-87cf-4307-9188-e22da49bee35")
-		)
-		(pin "5"
-			(uuid "02349f6b-3e79-4af3-a4b8-95e2f048bee8")
-		)
-		(pin "1"
-			(uuid "e5723b6a-bf2a-4e8f-976b-2117079304c7")
-		)
-		(instances
-			(project ""
-				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 751.84 265.43 90)
 		(unit 1)
@@ -49390,7 +49342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:LPS4018-222MLC"
 			(at 751.84 265.43 0)
 			(effects
 				(font
@@ -49524,7 +49476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:LPS4018-332MLC"
 			(at 750.57 113.03 0)
 			(effects
 				(font
@@ -49592,7 +49544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021R00JNED"
 			(at 778.51 146.05 0)
 			(effects
 				(font
@@ -49948,7 +49900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MLZ2012A3R3W:INDC2012X87N"
 			(at 1111.25 165.1 0)
 			(effects
 				(font
@@ -50220,7 +50172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021R00JNED"
 			(at 778.51 163.83 0)
 			(effects
 				(font
@@ -50593,7 +50545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMD-LED-CLEAR-GREEN_0603_:LED-0603"
 			(at 805.18 90.17 90)
 			(effects
 				(font
@@ -50681,7 +50633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:SAMTEC-TMM-103-02-X-S"
 			(at 632.46 203.2 0)
 			(effects
 				(font
@@ -50953,7 +50905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:IND_3010_TDK"
 			(at 754.38 388.62 0)
 			(effects
 				(font
@@ -51021,7 +50973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R0J105M"
 			(at 764.54 185.42 0)
 			(effects
 				(font
@@ -51355,7 +51307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:LTC3586EUFE"
 			(at 640.08 123.19 0)
 			(effects
 				(font
@@ -51603,7 +51555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED-SMD-RED-DIFFUSED_0603_:LED-0603"
 			(at 844.55 90.17 90)
 			(effects
 				(font
@@ -51757,7 +51709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:C1005X5R0J105M"
 			(at 764.54 236.22 0)
 			(effects
 				(font
@@ -51932,156 +51884,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPS60403DBVT_1")
-		(lib_id "TPS60403DBVT:TPS60403DBVT")
-		(at 998.22 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd5e0952-89d9-41be-a23d-f17974fb3646")
-		(property "Reference" "U6"
-			(at 1014.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS60403DBVT"
-			(at 1014.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 1027.43 154.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps60403.pdf"
-			(at 1027.43 254.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TPS60403DBVTG4, Charge Pump Inverting, Step Down, Step Up, -5.25 to -1.6V, 5-Pin, SOT-23"
-			(at 998.22 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 1027.43 454.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 1027.43 554.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS60403DBVT"
-			(at 1027.43 654.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS60403DBVT"
-			(at 1027.43 754.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS60403DBVT?qs=YEaxc5757jOMaH%2FoUp%252BPCg%3D%3D"
-			(at 1027.43 854.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TPS60403DBVT"
-			(at 1027.43 954.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps60403dbvt/texas-instruments?region=nac"
-			(at 1027.43 1054.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5dcd7905-e6eb-4753-a7c3-de1eddbc4d93")
-		)
-		(pin "1"
-			(uuid "5e764300-be3b-4fb8-b333-21e77c197710")
-		)
-		(pin "4"
-			(uuid "34049bae-14cb-4f3e-842b-230374c59a93")
-		)
-		(pin "3"
-			(uuid "76acddc6-79aa-411e-bb8c-ae1ce31b2d51")
-		)
-		(pin "5"
-			(uuid "5b314d15-0e0d-46dc-9f17-269010cb542e")
-		)
-		(instances
-			(project ""
-				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 646.43 350.52 90)
 		(unit 1)
@@ -52107,7 +51909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "03PowerFOOTPRINTS:CRCW04021K00JNED"
 			(at 646.43 350.52 0)
 			(effects
 				(font
