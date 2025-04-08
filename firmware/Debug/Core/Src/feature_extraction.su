@@ -1,2 +1,0 @@
-../Core/Src/feature_extraction.c:51:6:convert_adc_data	24	static
-../Core/Src/feature_extraction.c:58:6:calculate_features	112	static
