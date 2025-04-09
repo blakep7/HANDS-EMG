@@ -1,0 +1,1 @@
+mcc -m emg_main_gui.m -a normal_mode_script.m -a sim_keyboard.m -a training_mode_gui.m -a images/ -d build/
