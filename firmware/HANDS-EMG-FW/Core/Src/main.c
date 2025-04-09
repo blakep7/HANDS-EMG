@@ -57,9 +57,9 @@ UART_HandleTypeDef huart2;
 // =======================
 #define ML_SAMPLE_COUNT         1024       // Number of samples for ML input
 #define INTENSITY_BUFFER_SIZE   10         // Short buffer window for intensity comparison
-#define INTENSITY_THRESHOLD     1.3f       // 50% increase threshold
+#define INTENSITY_THRESHOLD     1.8f       // 80% increase threshold
 
-#define ML_TRAINING_MODE		1
+#define ML_TRAINING_MODE		0
 
 
 #if ML_TRAINING_MODE
@@ -69,7 +69,6 @@ UART_HandleTypeDef huart2;
 #define GRAPH_MODE_ENABLED 1
 #define CHUNK_MODE_ENABLED 0
 #endif
-
 
 // =======================
 //     Global Variables
@@ -593,7 +592,7 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
     HAL_UART_Transmit(&huart2, (uint8_t*)tx_buffer, sizeof(tx_buffer), HAL_MAX_DELAY);
 
     // Reset classification until next result
-    ml_class = 15;
+    ml_class = 0;
 #endif
 }
 
