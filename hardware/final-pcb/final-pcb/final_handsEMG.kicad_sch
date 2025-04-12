@@ -2379,6 +2379,330 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C_Polarized_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "sC59"
+				(at 2.54 1.8162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uF"
+				(at 2.54 -0.7238 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TAJA105K016R:CAPMP3216X166"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_1_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_Polarized_Small_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "sC56"
+				(at 2.54 1.8162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uF"
+				(at 2.54 -0.7238 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TAJA105K016R:CAPMP3216X166"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_2_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_2_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -3573,6 +3897,686 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "D_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "sLD8"
+				(at -1.2701 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Green"
+				(at 1.2699 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SMD-LED-CLEAR-GREEN_0603_:LED-0603"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "D_Small_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "sLD7"
+				(at -1.2701 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Red"
+				(at 1.2699 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED-SMD-RED-DIFFUSED_0603_:LED-0603"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "D_Small_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "pD2"
+				(at 1.27 3.048 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GREEN (CHRG)"
+				(at -1.27 3.048 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SMD-LED-CLEAR-GREEN_0603_:LED-0603"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_3_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "D_Small_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "pD3"
+				(at 1.27 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RED (FAULT)"
+				(at -1.27 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED-SMD-RED-DIFFUSED_0603_:LED-0603"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_4_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_4_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -3584,8 +4588,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
+			(property "Reference" "sC42"
+				(at 2.54 1.8162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3593,8 +4597,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "4.7uF"
+				(at 2.54 -0.7238 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3602,7 +4606,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TAJA475K016R:CAPMP3216X166"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3706,7 +4710,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3724,7 +4728,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13474,6 +14478,12 @@
 		(uuid "1e570433-4abe-4af2-aa48-5d454c97ddcf")
 	)
 	(junction
+		(at 129.54 674.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2167b9c2-1c10-4874-930a-0cca05a35141")
+	)
+	(junction
 		(at 706.12 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14264,6 +15274,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd97736f-32b0-461e-9080-ed075480a086")
+	)
+	(junction
+		(at 335.28 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be0c57cf-18f7-486f-930f-e95c061bb8b7")
 	)
 	(junction
 		(at 176.53 290.83)
@@ -15278,6 +16294,16 @@
 			(type default)
 		)
 		(uuid "084bbaff-41fc-41d0-b975-9d257450f273")
+	)
+	(wire
+		(pts
+			(xy 335.28 443.23) (xy 347.98 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0899d364-59f5-474f-aaf0-f0b9e774cd57")
 	)
 	(wire
 		(pts
@@ -17498,6 +18524,16 @@
 			(type default)
 		)
 		(uuid "52843361-d5bc-4e23-96d3-151c46156d9f")
+	)
+	(wire
+		(pts
+			(xy 134.62 674.37) (xy 129.54 674.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c2b98f-a053-4c34-baa1-d2372b142f20")
 	)
 	(wire
 		(pts
@@ -20828,6 +21864,16 @@
 			(type default)
 		)
 		(uuid "c31d6b26-956e-4ace-8c1a-6288436e02f9")
+	)
+	(wire
+		(pts
+			(xy 129.54 674.37) (xy 129.54 702.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32144c3-ef46-423c-b668-5facd11ae6f9")
 	)
 	(wire
 		(pts
@@ -25444,6 +26490,28 @@
 		(uuid "4b3745ed-8a0d-40be-860f-4d4356c9a5a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 788.8355 711.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape bidirectional)
+		(at 129.54 461.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c8cc13f-096f-44f6-aa0d-974ec6836aec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.2651 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30843,6 +31911,28 @@
 			)
 		)
 	)
+	(global_label "DGND"
+		(shape bidirectional)
+		(at 347.98 443.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f28524c1-aedb-4bdc-bee5-b8569c5618b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.217 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VREF+"
 		(shape bidirectional)
 		(at 345.44 496.57 180)
@@ -30949,28 +32039,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape bidirectional)
-		(at 129.54 461.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f56f17be-a0b7-40c4-9b8b-1d07d55c792e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0513 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -33232,6 +34300,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_Polarized_Small_2")
 		(lib_id "Device:C_Polarized_Small")
 		(at 353.06 501.65 0)
 		(unit 1)
@@ -33286,10 +34355,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "+"
 			(uuid "ff7bc1c3-84bc-417a-9be2-02079640a58a")
 		)
-		(pin "2"
+		(pin "-"
 			(uuid "31d42b8d-f478-4653-b265-c4c6c773fc5e")
 		)
 		(instances
@@ -33501,6 +34570,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Small_2")
 		(lib_id "Device:D_Small")
 		(at 303.53 647.7 270)
 		(unit 1)
@@ -33573,10 +34643,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "-"
 			(uuid "e4b948c8-3a4a-40c9-beb1-20f92357d622")
 		)
-		(pin "2"
+		(pin "+"
 			(uuid "5a282404-4edf-438f-9fbc-25a96489bf10")
 		)
 		(instances
@@ -34642,6 +35712,72 @@
 			(project "finalpcb"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 308.61 511.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c3bbc79-8bc0-497a-ba09-33b5ea2f33c5")
+		(property "Reference" "#PWR035"
+			(at 308.61 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 516.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "779d756a-34af-46a1-b971-a3e3336bea78")
+		)
+		(instances
+			(project "final_handsEMG"
+				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -37518,6 +38654,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Small_1")
 		(lib_id "Device:D_Small")
 		(at 394.97 636.27 90)
 		(unit 1)
@@ -37590,10 +38727,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "-"
 			(uuid "3aa1beb8-0c0c-475e-b5a3-c23bd01b8eb0")
 		)
-		(pin "2"
+		(pin "+"
 			(uuid "63bda3da-cda0-4f28-8c73-b804c6295a10")
 		)
 		(instances
@@ -37949,7 +39086,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 674.37 90)
+		(at 134.62 674.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37958,7 +39095,7 @@
 		(fields_autoplaced yes)
 		(uuid "5756a842-eb68-4b62-88d4-b046fced3cb9")
 		(property "Reference" "#PWR038"
-			(at 135.89 674.37 0)
+			(at 140.97 674.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37967,7 +39104,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 674.3699 90)
+			(at 138.43 674.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37976,7 +39113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 674.37 0)
+			(at 134.62 674.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37985,7 +39122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 674.37 0)
+			(at 134.62 674.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37994,7 +39131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 674.37 0)
+			(at 134.62 674.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40555,6 +41692,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 353.06 511.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74fa1778-be37-48d5-a635-29e403c7a2eb")
+		(property "Reference" "#PWR034"
+			(at 353.06 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 353.06 516.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69c944c-ab29-4803-b771-dc0556d613e9")
+		)
+		(instances
+			(project "final_handsEMG"
+				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 243.84 340.36 270)
 		(unit 1)
@@ -40891,73 +42094,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 129.54 702.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78338add-04cc-40a3-b31a-0e8781472ea2")
-		(property "Reference" "#PWR036"
-			(at 135.89 702.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 133.35 702.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 702.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 702.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 129.54 702.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1320b89e-ea4b-4de4-a164-2a18e81c30dc")
-		)
-		(instances
-			(project "final_handsEMG"
-				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 715.01 256.54 0)
 		(unit 1)
@@ -41028,72 +42164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 308.61 511.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "797979e5-dea6-41de-a1fd-2443bcea389e")
-		(property "Reference" "#PWR034"
-			(at 308.61 518.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 308.61 516.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 511.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 511.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 308.61 511.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b03c04d-1492-41ff-a930-8d585d28cdd6")
-		)
-		(instances
-			(project "final_handsEMG"
-				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 227.33 642.62 0)
 		(unit 1)
@@ -41148,10 +42218,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "-"
 			(uuid "b00e0763-917c-43a5-993e-618617f76ff8")
 		)
-		(pin "1"
+		(pin "+"
 			(uuid "c60fd724-bf46-40e1-aa17-19c091a3bbb5")
 		)
 		(instances
@@ -42953,72 +44023,6 @@
 			(project "final_handsEMG"
 				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
 					(reference "sC60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 353.06 511.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c1ede16-9a2d-49fa-8fec-f7cccbc67d41")
-		(property "Reference" "#PWR044"
-			(at 353.06 518.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 353.06 516.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 511.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 511.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 353.06 511.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b56f5d6-f4e1-4343-a73c-daef6d6831dd")
-		)
-		(instances
-			(project "final_handsEMG"
-				(path "/9c27d105-7969-4235-8f4c-8400008ffa02"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -46502,6 +47506,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_Polarized_Small_1")
 		(lib_id "Device:C_Polarized_Small")
 		(at 308.61 501.65 0)
 		(unit 1)
@@ -46556,10 +47561,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "+"
 			(uuid "e2bc18dd-5c90-436e-b8df-b6ec84b7c71e")
 		)
-		(pin "2"
+		(pin "-"
 			(uuid "c59e29c6-ec66-4ce7-81d3-00c76a8b34e2")
 		)
 		(instances
@@ -49576,6 +50581,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Small_3")
 		(lib_id "Device:D_Small")
 		(at 693.42 36.83 90)
 		(unit 1)
@@ -49647,10 +50653,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "+"
 			(uuid "ea2eaf1e-d449-44b6-8d45-944cd6d9356d")
 		)
-		(pin "2"
+		(pin "-"
 			(uuid "8fb57607-02a2-47e2-8750-838a50da12c8")
 		)
 		(instances
@@ -50511,6 +51517,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Small_4")
 		(lib_id "Device:D_Small")
 		(at 732.79 36.83 90)
 		(unit 1)
@@ -50582,10 +51589,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "+"
 			(uuid "6c37d459-02f7-4459-a3db-c22dd1c788b3")
 		)
-		(pin "2"
+		(pin "-"
 			(uuid "4e9e583d-8868-42f3-acfc-88383f4b937d")
 		)
 		(instances
