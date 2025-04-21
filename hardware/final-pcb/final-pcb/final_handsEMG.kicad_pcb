@@ -49247,7 +49247,7 @@
 		(uuid "dac62f8d-7b57-4cf5-aba4-489df5ede674")
 		(at 157.7601 65.4851 90)
 		(tags "S2B-PH-K-SLFSN ")
-		(property "Reference" "sJ2"
+		(property "Reference" "BAT"
 			(at -3.3049 3.9019 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -55845,6 +55845,18 @@
 				(size 1.5 1.524)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-\n+"
+		(at 154.71 65.75 0)
+		(layer "F.SilkS")
+		(uuid "abfc1250-e084-45f0-9e32-16b00503f872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
 			)
 			(justify left bottom)
 		)
