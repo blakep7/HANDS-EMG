@@ -3,7 +3,7 @@ function normal_mode_script()
     clearvars -except stopCapture; clc; close all;
 
     % Serial Port Configuration
-    port = 'COM7';
+    port = 'COM5';
     baudRate = 921600;
     syncBytes = uint32(0x53594E43);
     s = serialport(port, baudRate, "Parity", "even");
@@ -24,7 +24,7 @@ function normal_mode_script()
     global hpEnabled lpEnabled notchEnabled hpFreq lpFreq notchFreq autoScaleEnabled simulateKeys
     hpEnabled = false; lpEnabled = false; notchEnabled = false;
     hpFreq = 5; lpFreq = 200; notchFreq = 60;
-    autoScaleEnabled = false;
+    autoScaleEnabled = true;
     simulateKeys = false;
 
     % Stop control
