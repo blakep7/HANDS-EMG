@@ -23,7 +23,7 @@ function normal_mode_script()
     % Filter Settings
     global hpEnabled lpEnabled notchEnabled hpFreq lpFreq notchFreq autoScaleEnabled simulateKeys
     hpEnabled = false; lpEnabled = false; notchEnabled = false;
-    hpFreq = 5; lpFreq = 200; notchFreq = 60;
+    hpFreq = 5; lpFreq = 100; notchFreq = 60;
     autoScaleEnabled = true;
     simulateKeys = false;
 
@@ -33,9 +33,10 @@ function normal_mode_script()
 
     % Classification map (update as needed)
     classMap = containers.Map('KeyType', 'uint32', 'ValueType', 'any');
+    classMap(3) = struct('name', 'Rest', 'image', '', 'keyboardSimKey', 'up');
     classMap(1) = struct('name', 'Wrist Flexion', 'image', 'images/wrist-flexion.png', 'keyboardSimKey', 'up');
     classMap(2) = struct('name', 'Wrist Extension', 'image', 'images/wrist-extension.png', 'keyboardSimKey', 'down');
-    classMap(3) = struct('name', 'Fist Clench', 'image', 'images/fist-clench.png', 'keyboardSimKey', 'L');
+    classMap(4) = struct('name', 'Fist Clench', 'image', 'images/fist-clench.png', 'keyboardSimKey', 'L');
 
     % === Plotting Window ===
     fig = figure('Name', 'Live Serial Plot', 'Units', 'normalized', 'Position', [0.1 0.2 0.8 0.7]);
