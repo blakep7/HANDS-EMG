@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "power_manager")(type "KiCad")(uri "${KIPRJMOD}/power_manager.pretty")(options "")(descr ""))
-)

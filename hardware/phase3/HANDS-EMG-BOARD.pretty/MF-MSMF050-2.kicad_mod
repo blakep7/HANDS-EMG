@@ -1,0 +1,315 @@
+(footprint "MF-MSMF050-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "MF-MSMF050-2 ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b70c4848-7fac-4adb-9bbf-c8cd58cea779")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE_F050-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "674e36fb-2128-429e-afbc-37c2603acb11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad2d9fc6-5fdf-4430-852b-b6d6a4491a1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Polymeric PTC Resettable Fuse 15V 500 mA Ih Surface Mount 1812 (4532 Metric), Concave"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d3258a-b43f-46d9-bc65-b969fa45039d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.064947 1.8288)
+		(end 1.064947 1.8288)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3228d782-ff41-4b52-9ac4-6a16ef75ffe2")
+	)
+	(fp_line
+		(start 1.064947 -1.8288)
+		(end -1.064947 -1.8288)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd753a0c-7f7d-4cd0-aded-f663119c96a6")
+	)
+	(fp_line
+		(start -3.0988 -1.905)
+		(end -2.6162 -1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77d9ed81-d4cb-4e1a-ad08-fdaa98d2f7f4")
+	)
+	(fp_line
+		(start -3.0988 1.905)
+		(end -3.0988 -1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9320f7fd-0243-4f36-9549-7112a97e599a")
+	)
+	(fp_line
+		(start -2.6162 -1.9558)
+		(end 2.6162 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6a233fd-b646-4f36-b9d0-afea0b597c35")
+	)
+	(fp_line
+		(start -2.6162 -1.905)
+		(end -2.6162 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49311e0b-5df3-460b-94fb-a9585c57210d")
+	)
+	(fp_line
+		(start -2.6162 1.905)
+		(end -3.0988 1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c542ea1-3500-42ca-9c7e-4b8558c45161")
+	)
+	(fp_line
+		(start -2.6162 1.9558)
+		(end -2.6162 1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "204b21af-0a30-4ccd-b620-a3c36d7fb834")
+	)
+	(fp_line
+		(start 2.6162 -1.9558)
+		(end 2.6162 -1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6be9093-f281-468c-bb5d-9e5bace479bd")
+	)
+	(fp_line
+		(start 2.6162 -1.905)
+		(end 3.0988 -1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4216262a-7b78-4c0b-9e3c-a6d1e771f878")
+	)
+	(fp_line
+		(start 2.6162 1.905)
+		(end 2.6162 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb2f02f9-dfaa-448c-8509-5c7b9ff72bba")
+	)
+	(fp_line
+		(start 2.6162 1.9558)
+		(end -2.6162 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90b961ec-8aed-47f4-bdd7-054f388ae051")
+	)
+	(fp_line
+		(start 3.0988 -1.905)
+		(end 3.0988 1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47d26fb2-4304-480e-bc84-be50e017e1a7")
+	)
+	(fp_line
+		(start 3.0988 1.905)
+		(end 2.6162 1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b25fd91-b97d-4f8e-8204-260e752afe14")
+	)
+	(fp_line
+		(start -2.3622 -1.7018)
+		(end -2.3622 1.7018)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82352647-a752-417d-a768-941ecb98e70b")
+	)
+	(fp_line
+		(start -2.3622 1.7018)
+		(end 2.3622 1.7018)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78f215dc-88c2-4882-848b-f347ad3263e5")
+	)
+	(fp_line
+		(start 2.3622 -1.7018)
+		(end -2.3622 -1.7018)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80e4bede-a357-4f29-aef8-6f0a3fa69413")
+	)
+	(fp_line
+		(start 2.3622 1.7018)
+		(end 2.3622 -1.7018)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab222f10-7567-4925-b4a2-5371e7602da1")
+	)
+	(fp_circle
+		(center -2.286 0)
+		(end -2.286 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "22267a62-8e63-427e-ae44-53455a83ba65")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c052c8e7-4114-4b03-ae21-f3846352f157")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.0955 0)
+		(size 1.4986 3.302)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ecf49d8a-07fb-40d5-969c-8e6e3ca65ea1")
+	)
+	(pad "2" smd rect
+		(at 2.0955 0)
+		(size 1.4986 3.302)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eac99502-814a-4d7a-ba94-50af49abd4ba")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "bf78fb26-78c1-40b4-90c0-8d2be3ecef3e")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -1.2954 -1.651) (xy 1.2954 -1.651) (xy 1.2954 1.651) (xy -1.2954 1.651)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/HANDS-EMG-BOARD.3dshapes/MF-MSMF050-2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

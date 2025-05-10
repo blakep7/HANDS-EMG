@@ -1,0 +1,306 @@
+(footprint "MPZ1005S300CT000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "MPZ1005S300CT000 ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "379c6521-82b4-456d-9eff-d71122ef8e67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_1005_TDK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d060c5c-7366-401e-b436-81a82e8a3f95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1005_en.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14bb0205-97e0-46f2-8875-afd58ed44a20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "30 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0402 (1005 Metric) 1.7A 35mOhm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4641ab73-bdad-4afd-8f4d-1f36b2d9ea27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.4605 0)
+		(end -1.3843 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f88931b0-1f73-4dc1-b2fa-a29d7d945781")
+	)
+	(fp_line
+		(start -0.9525 -0.508)
+		(end -0.7747 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af23d5d2-84a2-47cb-b73d-51803274799c")
+	)
+	(fp_line
+		(start -0.9525 0.508)
+		(end -0.9525 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c3888fa-efd4-4198-9f5d-d69d5f9602fb")
+	)
+	(fp_line
+		(start -0.7747 -0.5334)
+		(end 0.7747 -0.5334)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04ab09f6-26a7-4ff0-816e-d36007e4dbf8")
+	)
+	(fp_line
+		(start -0.7747 -0.508)
+		(end -0.7747 -0.5334)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73e21420-c1f5-4dd0-bb6b-43631325cc21")
+	)
+	(fp_line
+		(start -0.7747 0.508)
+		(end -0.9525 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9bb2ddf-ec1f-490b-9865-217618602dc4")
+	)
+	(fp_line
+		(start -0.7747 0.5334)
+		(end -0.7747 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "388b425c-726f-4f64-b942-171ecdf073f9")
+	)
+	(fp_line
+		(start 0.7747 -0.5334)
+		(end 0.7747 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03897aa0-fc05-49c0-94cc-5dbab4faa651")
+	)
+	(fp_line
+		(start 0.7747 -0.508)
+		(end 0.9525 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4f6d350-69bd-4838-8958-3cb05dd19a79")
+	)
+	(fp_line
+		(start 0.7747 0.508)
+		(end 0.7747 0.5334)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59c8991d-8157-475f-8119-9db8f739f4cf")
+	)
+	(fp_line
+		(start 0.7747 0.5334)
+		(end -0.7747 0.5334)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42344f40-a4a7-4d08-b041-93321cf5db69")
+	)
+	(fp_line
+		(start 0.9525 -0.508)
+		(end 0.9525 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4d14842-7150-4b64-ab38-6c059c4a5bc5")
+	)
+	(fp_line
+		(start 0.9525 0.508)
+		(end 0.7747 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cddbf915-7093-4170-a980-6b9ea1b60015")
+	)
+	(fp_line
+		(start -0.5207 -0.2794)
+		(end -0.5207 0.2794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d24944e-8a24-4217-a261-eec8ab0c2c02")
+	)
+	(fp_line
+		(start -0.5207 0.2794)
+		(end 0.5207 0.2794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3eabc034-79d7-44a5-8fb0-4fc4f302e49e")
+	)
+	(fp_line
+		(start 0.5207 -0.2794)
+		(end -0.5207 -0.2794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1981a425-371a-418f-843f-d341ba7e8752")
+	)
+	(fp_line
+		(start 0.5207 0.2794)
+		(end 0.5207 -0.2794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62a1fb93-47be-4ad6-892a-20caad3a5d2e")
+	)
+	(fp_circle
+		(center -0.4445 0)
+		(end -0.3683 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e48004e6-5438-4c7f-a797-2235a0ded0c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "736141ff-a6fb-4fe9-bf20-78b9e3a87001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.45085 0)
+		(size 0.4953 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "752a6f80-116f-47fb-be9f-7e010182c65e")
+	)
+	(pad "2" smd rect
+		(at 0.45085 0)
+		(size 0.4953 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bea08e74-933c-40d1-9f72-b53fdc0a4a3f")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "f5173931-fcdf-4060-8b49-029d55215cdb")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.1524 -0.2286) (xy 0.1524 -0.2286) (xy 0.1524 0.2286) (xy -0.1524 0.2286)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/HANDS-EMG-BOARD.3dshapes/MPZ1005S300CT000.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

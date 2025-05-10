@@ -68,22 +68,6 @@ void Error_Handler(void);
 #define ADS1299_NRESET_GPIO_Port GPIOC
 #define ADS1299_START_Pin GPIO_PIN_0
 #define ADS1299_START_GPIO_Port GPIOB
-#define PMU_MODE_Pin GPIO_PIN_10
-#define PMU_MODE_GPIO_Port GPIOC
-#define PMU_ILIM1_Pin GPIO_PIN_11
-#define PMU_ILIM1_GPIO_Port GPIOC
-#define PMU_ILIM0_Pin GPIO_PIN_12
-#define PMU_ILIM0_GPIO_Port GPIOC
-#define PMU_NFAULT_Pin GPIO_PIN_0
-#define PMU_NFAULT_GPIO_Port GPIOD
-#define PMU_EN1_Pin GPIO_PIN_1
-#define PMU_EN1_GPIO_Port GPIOD
-#define PMU_EN2_Pin GPIO_PIN_2
-#define PMU_EN2_GPIO_Port GPIOD
-#define PMU_EN3_Pin GPIO_PIN_3
-#define PMU_EN3_GPIO_Port GPIOD
-#define PMU_EN4_Pin GPIO_PIN_4
-#define PMU_EN4_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 

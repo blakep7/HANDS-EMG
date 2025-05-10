@@ -18,9 +18,9 @@
 /**
  *	@brief ADS1299 Version 4,6,8 Channels
  */
-//#define ADS1299_4
+#define ADS1299_4
 //#define ADS1299_6
-#define ADS1299_8
+//#define ADS1299_8
 
 /*******************************************************************************************/
 /**
@@ -40,10 +40,11 @@ typedef enum
 
 #define STATUS_BITS 24
 #define CHANNEL_BITS 24
-#define CHANNEL_COUNT 8
+#define CHANNEL_COUNT 4
 #define BUFF_SIZE (STATUS_BITS + (CHANNEL_BITS * CHANNEL_COUNT)) / 8
 
 extern volatile uint8_t RX_BUFF[BUFF_SIZE];
+
 
 
 /*******************************************************************************************/

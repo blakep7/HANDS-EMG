@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS60403DBVT
+#/4060/1614002/2.50/5/3/Integrated Circuit
+DEF TPS60403DBVT IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TPS60403DBVT" 1150 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps60403.pdf" 1150 0 50 H I L CNN
+F4 "TPS60403DBVTG4, Charge Pump Inverting, Step Down, Step Up, -5.25 to -1.6V, 5-Pin, SOT-23" 1150 -100 50 H I L CNN "Description"
+F5 "1.45" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS60403DBVT" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS60403DBVT" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS60403DBVT?qs=YEaxc5757jOMaH%2FoUp%252BPCg%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TPS60403DBVT" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tps60403dbvt/texas-instruments?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X CFLY- 3 0 -200 200 R 50 50 0 0 P
+X GND 4 1300 0 200 L 50 50 0 0 P
+X CFLY+ 5 1300 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

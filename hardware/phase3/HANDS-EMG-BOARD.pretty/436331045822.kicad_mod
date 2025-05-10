@@ -1,0 +1,282 @@
+(footprint "436331045822"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0248 -2.9778 0)
+		(layer "F.SilkS")
+		(uuid "0f877821-262c-4272-8b83-912c3645bf77")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4363X10458XX"
+		(at 2.652 3.4222 0)
+		(layer "F.Fab")
+		(uuid "f8beab6c-c7b3-422f-b192-a1f572374abb")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/katalog/datasheet/436331045822.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8bea01f-397d-4be2-8138-e8aa2a9487f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fba654d-77c6-4f61-b8dc-9501b564c7ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.45 -1.85)
+		(end 2.45 -1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60104969-de2e-4a71-96b8-199e1e82f4f9")
+	)
+	(fp_line
+		(start -2.45 -1.7)
+		(end -2.45 -1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50e03780-6c73-4d73-acf4-c3f5a20ef55e")
+	)
+	(fp_line
+		(start -2.45 1.7)
+		(end -2.45 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cece92c-d1bf-4fe6-b8c3-c5402fb1ab41")
+	)
+	(fp_line
+		(start -2.45 1.85)
+		(end 2.45 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d18a65b-59dc-4934-a881-23006cf7d121")
+	)
+	(fp_line
+		(start 2.45 -1.85)
+		(end 2.45 -1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7dbd2e4-d8bb-4a1d-874f-c74d08d77846")
+	)
+	(fp_line
+		(start 2.45 1.85)
+		(end 2.45 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0625624a-ab29-49d6-9970-26971677e55c")
+	)
+	(fp_circle
+		(center 1.7 -1.4)
+		(end 1.8 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bd6d371b-bae8-4c1b-860b-5fba9cb6ebce")
+	)
+	(fp_poly
+		(pts
+			(xy -3.61 -2.05) (xy 3.61 -2.05) (xy 3.61 2.05) (xy -3.61 2.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "abf45a2e-c494-45b4-af75-806a1b4fc306")
+	)
+	(fp_line
+		(start -2.35 -1.75)
+		(end -2.35 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a88eca19-440b-4e9f-a2b9-5792f7327ec6")
+	)
+	(fp_line
+		(start -1.3 1.75)
+		(end -1.3 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffc5fdd3-45e1-4d48-8511-077483f392c9")
+	)
+	(fp_line
+		(start -1.3 2.75)
+		(end 1.3 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59a7919f-2577-48d2-bea5-ee775adcd459")
+	)
+	(fp_line
+		(start 1.3 2.75)
+		(end 1.3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5889071-4099-484e-b998-906df8881a9a")
+	)
+	(fp_line
+		(start 2.35 -1.75)
+		(end -2.35 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b97219f-f0ca-4998-b485-50e2b47da7a0")
+	)
+	(fp_line
+		(start 2.35 1.75)
+		(end -2.35 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a940af9-1d4d-49ae-a909-9ed85edf360e")
+	)
+	(fp_line
+		(start 2.35 1.75)
+		(end 2.35 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc535ca1-3a98-45e5-8a52-3ecb66dbb923")
+	)
+	(fp_text user "SWITCH EDGE"
+		(at -1.2 2.6 0)
+		(layer "Dwgs.User")
+		(uuid "7ca8226c-2d30-4aae-8b57-bfddcd18c90e")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "PCB EDGE"
+		(at -1 1.4 0)
+		(layer "Dwgs.User")
+		(uuid "a3807f15-ba99-45ec-aac7-d4ffbc9a2de9")
+		(effects
+			(font
+				(size 0.24 0.24)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.375)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f463c55b-411f-4b07-9137-ea4f8bb1eaaf")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.375)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2e298b64-9031-4e9e-87cf-20e40bf4f10c")
+	)
+	(pad "1" smd rect
+		(at 2.8 -0.85)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e8ecc5c7-3050-4d89-9f4a-95c42789ca8c")
+	)
+	(pad "2" smd rect
+		(at 2.8 0.85)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7c5b33e0-d368-439e-8e91-7a9217964139")
+	)
+	(pad "3" smd rect
+		(at -2.8 -0.85)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e40509fb-1ce9-4ded-849e-d5bf5669f59c")
+	)
+	(pad "4" smd rect
+		(at -2.8 0.85)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6869860f-6579-4d4f-a504-202ef2a565ee")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/HANDS-EMG-BOARD.3dshapes/436331045822.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

@@ -6,6 +6,12 @@ volatile uint8_t RX_BUFF[BUFF_SIZE];
 
 extern UART_HandleTypeDef huart2;
 
+static const uint8_t tx_buf[BUFF_SIZE] = {
+    0x00, 0x00, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x00
+};
+
 ads1299_error_t ads1299_device_init(SPI_HandleTypeDef *hspi, uint8_t init_regs) {
 	/* Power cycle ADS1299 */
 //	HAL_GPIO_WritePin(ADS1299_NPWDN_GPIO_Port, ADS1299_NPWDN_Pin, GPIO_PIN_RESET);
@@ -80,25 +86,13 @@ ads1299_error_t ads1299_device_init(SPI_HandleTypeDef *hspi, uint8_t init_regs) 
 		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
 		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
 		/* Write to CH5 settings register, set as normal input, gain 24 */
-		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH5SET, ADS1299_REG_CHNSET_CHANNEL_OFF			|
-		ADS1299_REG_CHNSET_GAIN_24			|
-		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH5SET, 0x00);
 		/* Write to CH6 settings register, set as normal input, gain 24 */
-		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH6SET, ADS1299_REG_CHNSET_CHANNEL_OFF			|
-		ADS1299_REG_CHNSET_GAIN_24			|
-		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH6SET, 0x00);
 		/* Write to CH7 settings register, set as normal input, gain 24 */
-		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH7SET, ADS1299_REG_CHNSET_CHANNEL_OFF			|
-		ADS1299_REG_CHNSET_GAIN_24			|
-		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH7SET, 0x00);
 		/* Write to CH8 settings register, set as normal input, gain 24 */
-		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH8SET, ADS1299_REG_CHNSET_CHANNEL_OFF			|
-		ADS1299_REG_CHNSET_GAIN_24			|
-		ADS1299_REG_CHNSET_SRB2_DISCONNECTED	|
-		ADS1299_REG_CHNSET_NORMAL_ELECTRODE);
+		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_CH8SET, 0x00);
 
 		ads1299_wreg(hspi, ADS1299_ADDRESS_REG_BIAS_SENSP, ADS1299_REG_BIAS_SENSP_BIASP1    |
 		ADS1299_REG_BIAS_SENSP_BIASP2    |
@@ -134,7 +128,7 @@ ads1299_error_t ads1299_rreg(SPI_HandleTypeDef *hspi, uint8_t reg_addr, uint8_t*
 	HAL_Delay(10);
 	HAL_GPIO_WritePin(SPI1_CS_GPIO_Port, SPI1_CS_Pin, GPIO_PIN_SET);
 
-	*read_reg_val_ptr = (uint8_t)read_data[1];
+	*read_reg_val_ptr = (uint8_t)read_data[0];
 
 	return ADS1299_STATUS_OK;
 }
@@ -169,7 +163,7 @@ ads1299_error_t ads1299_read_data_IT(SPI_HandleTypeDef *hspi)
 	HAL_GPIO_WritePin(SPI1_CS_GPIO_Port, SPI1_CS_Pin, GPIO_PIN_RESET);
 
 	HAL_SPI_Transmit(hspi, (uint8_t[]){ADS1299_COMMAND_RDATA}, 1, HAL_MAX_DELAY);
-	uint8_t tx_buf[BUFF_SIZE] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
+
 	HAL_SPI_TransmitReceive_IT(hspi, tx_buf, (uint8_t *)RX_BUFF, BUFF_SIZE);
 
 	return ADS1299_STATUS_OK;

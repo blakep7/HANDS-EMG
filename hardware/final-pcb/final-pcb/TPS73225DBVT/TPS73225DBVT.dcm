@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TPS73225DBVT
-D Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection
-K
-F http://www.ti.com/lit/ds/symlink/tps732.pdf
-$ENDCMP
-#
-#End Doc Library

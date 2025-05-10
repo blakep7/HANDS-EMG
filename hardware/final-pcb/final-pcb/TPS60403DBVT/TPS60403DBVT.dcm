@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TPS60403DBVT
-D TPS60403DBVTG4, Charge Pump Inverting, Step Down, Step Up, -5.25 to -1.6V, 5-Pin, SOT-23
-K
-F http://www.ti.com/lit/ds/symlink/tps60403.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -52,12 +52,16 @@ SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+
+
 // =======================
 //        Defines
 // =======================
 #define ML_SAMPLE_COUNT         1024       // Number of samples for ML input
-#define INTENSITY_BUFFER_SIZE   10         // Short buffer window for intensity comparison
-#define INTENSITY_THRESHOLD     1.8f       // 80% increase threshold
+#define INTENSITY_BUFFER_SIZE   10	        // Short buffer window for intensity comparison
+
+#define USE_THRESHOLDING		1
+#define INTENSITY_THRESHOLD     1.15f       // 80% increase threshold
 
 #define ML_TRAINING_MODE		0
 
@@ -69,6 +73,7 @@ UART_HandleTypeDef huart2;
 #define GRAPH_MODE_ENABLED 1
 #define CHUNK_MODE_ENABLED 0
 #endif
+
 
 // =======================
 //     Global Variables
@@ -82,6 +87,11 @@ volatile bool ml_collecting = false;
 volatile uint32_t ml_class = 0;                 // Last ML classification result (0 = none)
 
 // --- Intensity detection ---
+
+static bool intensity_initialized = false;
+#define TRIGG_WAIT 251
+volatile uint32_t just_triggered = 0;
+
 volatile float ch1_buffer[INTENSITY_BUFFER_SIZE] = {0};
 volatile float ch2_buffer[INTENSITY_BUFFER_SIZE] = {0};
 volatile float ch3_buffer[INTENSITY_BUFFER_SIZE] = {0};
@@ -93,6 +103,8 @@ volatile float ch3_I1 = 0, ch3_I2 = 0;
 volatile float ch4_I1 = 0, ch4_I2 = 0;
 
 volatile uint16_t intensity_counter = 0;
+
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -141,25 +153,22 @@ int main(void)
   MX_SPI1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  /***** POWER SUPPLY SEQUENCING ACCORDING TO ADS1299 DATASHEET *****/
-  // TODO: WHEN CUSTOM PCB -- Enable all voltage to ADS1299
-  // TODO: WHEN CUSTOM PCB -- Delay by 500mS (ensure power lines stable)
-
   // Enable digital I/O to default state ADS1299
-  HAL_GPIO_WritePin(SPI1_CS_GPIO_Port, SPI1_CS_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(ADS1299_NRESET_GPIO_Port, ADS1299_NRESET_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(ADS1299_NPWDN_GPIO_Port, ADS1299_NPWDN_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(SPI1_CS_GPIO_Port, SPI1_CS_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(ADS1299_NRESET_GPIO_Port, ADS1299_NRESET_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(ADS1299_NPWDN_GPIO_Port, ADS1299_NPWDN_Pin, GPIO_PIN_SET);
 
-  // Initialize ADS1299
-  ads1299_device_init(&hspi1, 1);
-  HAL_Delay(1000);
-  HAL_GPIO_WritePin(ADS1299_START_GPIO_Port, ADS1299_START_Pin, GPIO_PIN_SET);
+    // Initialize ADS1299
+    ads1299_device_init(&hspi1, 1);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(ADS1299_START_GPIO_Port, ADS1299_START_Pin, GPIO_PIN_SET);
 
-  // Initialize ML
-  enum neai_state error_code = neai_classification_init(knowledge);
-  if (error_code != NEAI_OK) {
-	exit(1);
-  }
+    // Initialize ML
+    enum neai_state error_code = neai_classification_init(knowledge);
+    if (error_code != NEAI_OK) {
+  	  exit(1);
+    }
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -169,6 +178,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
   }
   /* USER CODE END 3 */
 }
@@ -214,7 +224,7 @@ void SystemClock_Config(void)
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_4) != HAL_OK)
@@ -310,62 +320,32 @@ static void MX_GPIO_Init(void)
 /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOE_CLK_ENABLE();
   __HAL_RCC_GPIOC_CLK_ENABLE();
-  __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
-  __HAL_RCC_GPIOG_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
-  HAL_PWREx_EnableVddIO2();
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(SPI1_CS_GPIO_Port, SPI1_CS_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, ADS1299_NPWDN_Pin|ADS1299_NRESET_Pin|PMU_MODE_Pin|PMU_ILIM1_Pin
-                          |PMU_ILIM0_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, ADS1299_NPWDN_Pin|ADS1299_NRESET_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(ADS1299_START_GPIO_Port, ADS1299_START_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, PMU_EN1_Pin|PMU_EN2_Pin|PMU_EN3_Pin|PMU_EN4_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pins : PE2 PE3 PE4 PE5
-                           PE6 PE7 PE8 PE9
-                           PE10 PE11 PE12 PE13
-                           PE14 PE15 PE0 PE1 */
-  GPIO_InitStruct.Pin = GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5
-                          |GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9
-                          |GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13
-                          |GPIO_PIN_14|GPIO_PIN_15|GPIO_PIN_0|GPIO_PIN_1;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
-
   /*Configure GPIO pins : PC13 PC14 PC15 PC0
                            PC1 PC2 PC3 PC6
-                           PC7 PC8 PC9 */
+                           PC7 PC8 PC9 PC10
+                           PC11 PC12 */
   GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15|GPIO_PIN_0
                           |GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_6
-                          |GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9;
+                          |GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10
+                          |GPIO_PIN_11|GPIO_PIN_12;
   GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PF0 PF1 PF2 PF3
-                           PF4 PF5 PF6 PF7
-                           PF8 PF9 PF10 PF11
-                           PF12 PF13 PF14 PF15 */
-  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3
-                          |GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7
-                          |GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11
-                          |GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PH0 PH1 PH3 */
   GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_3;
@@ -373,12 +353,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOH, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PA0 PA2 PA3 PA8
-                           PA9 PA10 PA11 PA12
-                           PA15 */
-  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_8
-                          |GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12
-                          |GPIO_PIN_15;
+  /*Configure GPIO pins : PA0 PA8 PA9 PA10
+                           PA11 PA12 PA15 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10
+                          |GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_15;
   GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -392,14 +370,12 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : ADS1299_NDRDY_Pin */
   GPIO_InitStruct.Pin = ADS1299_NDRDY_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(ADS1299_NDRDY_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : ADS1299_NPWDN_Pin ADS1299_NRESET_Pin PMU_MODE_Pin PMU_ILIM1_Pin
-                           PMU_ILIM0_Pin */
-  GPIO_InitStruct.Pin = ADS1299_NPWDN_Pin|ADS1299_NRESET_Pin|PMU_MODE_Pin|PMU_ILIM1_Pin
-                          |PMU_ILIM0_Pin;
+  /*Configure GPIO pins : ADS1299_NPWDN_Pin ADS1299_NRESET_Pin */
+  GPIO_InitStruct.Pin = ADS1299_NPWDN_Pin|ADS1299_NRESET_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -424,39 +400,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PG0 PG1 PG2 PG3
-                           PG4 PG5 PG6 PG7
-                           PG8 PG9 PG10 PG11
-                           PG12 PG13 PG14 PG15 */
-  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3
-                          |GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7
-                          |GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11
-                          |GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15;
+  /*Configure GPIO pin : PD2 */
+  GPIO_InitStruct.Pin = GPIO_PIN_2;
   GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PD8 PD9 PD10 PD11
-                           PD12 PD13 PD14 PD15
-                           PD7 */
-  GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11
-                          |GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15
-                          |GPIO_PIN_7;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : PMU_NFAULT_Pin */
-  GPIO_InitStruct.Pin = PMU_NFAULT_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(PMU_NFAULT_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PMU_EN1_Pin PMU_EN2_Pin PMU_EN3_Pin PMU_EN4_Pin */
-  GPIO_InitStruct.Pin = PMU_EN1_Pin|PMU_EN2_Pin|PMU_EN3_Pin|PMU_EN4_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
@@ -508,6 +455,7 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
         ch[i] = ads1299_data_to_float(raw);
     }
 
+#if USE_THRESHOLDING
     // 4. Update intensity buffers (absolute value)
     ch1_buffer[intensity_counter] = fabsf(ch[0]);
     ch2_buffer[intensity_counter] = fabsf(ch[1]);
@@ -518,6 +466,11 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
     bool activation_triggered = false;
 
     if (intensity_counter >= INTENSITY_BUFFER_SIZE) {
+    	if (!intensity_initialized) {
+			ch1_I1 = ch2_I1 = ch3_I1 = ch4_I1 = 1e-6f;  // Avoid divide-by-zero
+			intensity_initialized = true;
+			return;
+		}
         // Shift intensities: I1 <- I2, I2 <- new average
         ch1_I1 = ch1_I2; ch2_I1 = ch2_I2; ch3_I1 = ch3_I2; ch4_I1 = ch4_I2;
         ch1_I2 = ch2_I2 = ch3_I2 = ch4_I2 = 0.0f;
@@ -535,11 +488,16 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
         ch4_I2 /= INTENSITY_BUFFER_SIZE;
 
         // Compare for significant intensity increase
-        if ((ch1_I2 >= INTENSITY_THRESHOLD * ch1_I1) ||
+        if (((ch1_I2 >= INTENSITY_THRESHOLD * ch1_I1) ||
             (ch2_I2 >= INTENSITY_THRESHOLD * ch2_I1) ||
             (ch3_I2 >= INTENSITY_THRESHOLD * ch3_I1) ||
-            (ch4_I2 >= INTENSITY_THRESHOLD * ch4_I1)) {
+            (ch4_I2 >= INTENSITY_THRESHOLD * ch4_I1))&& just_triggered >= TRIGG_WAIT) {
             activation_triggered = true;
+            just_triggered = 0;
+        } else {
+        	if (just_triggered < TRIGG_WAIT+2) {
+        		just_triggered++;
+        	}
         }
 
         intensity_counter = 0;
@@ -550,6 +508,9 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
         ml_collecting = true;
         ml_index = 0;
     }
+#else
+    ml_collecting = true;
+#endif
 
     // 6. Collect into ML buffer
     if (ml_collecting) {
@@ -559,7 +520,7 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
         ml_buffer[ml_index++] = ch[3];
 
         if (ml_index >= ML_SAMPLE_COUNT * 4) {
-            // Run classification
+//             Run classification
         	__disable_irq();
             uint16_t class_id = 0;
             neai_classification((float *)ml_buffer, (float *)output_class_buffer, &class_id);
@@ -595,6 +556,7 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
     ml_class = 0;
 #endif
 }
+
 
 /* USER CODE END 4 */
 
