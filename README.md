@@ -11,6 +11,11 @@ The system will output the movement classifications via USB, which can be visual
 Designed for efficiency, the device operates at a voltage of 3.7V provided by a rechargeable lithium polymer battery for portability.
 The current ML model only classifies 3 hand movements: Wrist Flexion, Wrist Extension, and Fist Clench.
 
+## Videos
+[Project Overview (Entire Design Process)](https://www.youtube.com/watch?v=24S8prk70tI)
+
+[Demo Video](https://www.youtube.com/watch?v=GeJwxeHSsiM)
+
 ## Team
 
 - Blake Pearson
@@ -21,5 +26,9 @@ The current ML model only classifies 3 hand movements: Wrist Flexion, Wrist Exte
 
 ## About
 Developed at **San Diego State University**.
+
+**College of Engineering** -- **Department of Electrical and Computer Engineering (ECE)**
+
+![Final Board Top 3D Model](hardware/HANDS-EMG-BOARD-FRONT.png)
 
 
